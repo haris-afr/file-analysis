@@ -1,0 +1,4723 @@
+{
+  "filemd5":"72B76BACC82DB2042BA6EF98646A9C9B",
+  "filename":"testfile_easy.exe",
+  "structures": {
+    ".?AUctype_base@std@@": {
+      "demangled_name":"std::ctype_base",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":".?AVfacet@locale@std@@_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":8,
+	  "struc":".?AVfacet@locale@std@@",
+	  "type":"struc",
+	  "usages": ["0x4024f6", "0x402b1a" ]
+	}
+      },
+      "methods": {
+	"0x4024e0": {
+	  "demangled_name":"",
+	  "ea":"0x4024e0",
+	  "import":false,
+	  "name":"ctor_0x4024e0",
+	  "type":"ctor"
+	},
+	"0x402b10": {
+	  "demangled_name":"",
+	  "ea":"0x402b10",
+	  "import":false,
+	  "name":"dtor_0x402b10",
+	  "type":"dtor"
+	},
+	"0x402f10": {
+	  "demangled_name":"",
+	  "ea":"0x402f10",
+	  "import":false,
+	  "name":"virt_meth_0x402f10",
+	  "type":"meth"
+	}
+      },
+      "name":".?AUctype_base@std@@",
+      "size":8,
+      "vftables": {
+	"0x42031c": {
+	  "ea":"0x42031c",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x402f10",
+	      "import":false,
+	      "name":"virt_meth_0x402f10",
+	      "offset":0,
+	      "type":"meth"
+	    }
+	  },
+	  "length":3,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@": {
+      "demangled_name":"std::basic_filebuf<char, struct std::char_traits<char> >",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"vftptr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"vftptr",
+	  "usages": [
+	    "0x4052eb",
+	    "0x4053cc",
+	    "0x40555b",
+	    "0x405697",
+	    "0x406149",
+	    "0x406444",
+	    "0x40649c",
+	    "0x4064bc",
+	    "0x40658e",
+	    "0x40677a",
+	    "0x40686e",
+	    "0x406a1a"
+	  ]
+	},
+	"0x10": {
+	  "base":false,
+	  "name":"mbr_0x10",
+	  "offset":"0x10",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40536b", "0x405786", "0x40580a", "0x40585b", "0x405a57" ]
+	},
+	"0x14": {
+	  "base":false,
+	  "name":"mbr_0x14",
+	  "offset":"0x14",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x40535e",
+	    "0x40539b",
+	    "0x405791",
+	    "0x4057c7",
+	    "0x405861",
+	    "0x405892",
+	    "0x405a54",
+	    "0x405a8a"
+	  ]
+	},
+	"0x18": {
+	  "base":false,
+	  "name":"mbr_0x18",
+	  "offset":"0x18",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x40535b",
+	    "0x405383",
+	    "0x405783",
+	    "0x4057b5",
+	    "0x405867",
+	    "0x40587f",
+	    "0x405a45",
+	    "0x405a78"
+	  ]
+	},
+	"0x1c": {
+	  "base":false,
+	  "name":"mbr_0x1c",
+	  "offset":"0x1c",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x405307",
+	    "0x405335",
+	    "0x405365",
+	    "0x405398",
+	    "0x40579a",
+	    "0x405810",
+	    "0x405864",
+	    "0x405956",
+	    "0x405a5a",
+	    "0x405e0a",
+	    "0x405e2c",
+	    "0x405e65",
+	    "0x405e8a",
+	    "0x405ebb",
+	    "0x40601e",
+	    "0x4061bf",
+	    "0x4061d5",
+	    "0x40620c",
+	    "0x406464",
+	    "0x406483",
+	    "0x406530",
+	    "0x406587",
+	    "0x4065fb",
+	    "0x40663b",
+	    "0x40666d",
+	    "0x406720",
+	    "0x406773"
+	  ]
+	},
+	"0x20": {
+	  "base":false,
+	  "name":"mbr_0x20",
+	  "offset":"0x20",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x40537a",
+	    "0x40578d",
+	    "0x405813",
+	    "0x40586a",
+	    "0x405a5d",
+	    "0x406810",
+	    "0x406867",
+	    "0x4068c9",
+	    "0x406942",
+	    "0x4069c0",
+	    "0x406a13"
+	  ]
+	},
+	"0x24": {
+	  "base":false,
+	  "name":"mbr_0x24",
+	  "offset":"0x24",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x40536e",
+	    "0x4053a4",
+	    "0x4057cd",
+	    "0x40586d",
+	    "0x40589a",
+	    "0x405a48",
+	    "0x405a92"
+	  ]
+	},
+	"0x28": {
+	  "base":false,
+	  "name":"mbr_0x28",
+	  "offset":"0x28",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x405374",
+	    "0x405389",
+	    "0x4057bb",
+	    "0x405873",
+	    "0x405885",
+	    "0x405a7e"
+	  ]
+	},
+	"0x2c": {
+	  "base":false,
+	  "name":"mbr_0x2c",
+	  "offset":"0x2c",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x40530c",
+	    "0x40533a",
+	    "0x405371",
+	    "0x4053a1",
+	    "0x4057a0",
+	    "0x405819",
+	    "0x405870",
+	    "0x40595b",
+	    "0x405a60",
+	    "0x405e27",
+	    "0x405e7e",
+	    "0x405e90",
+	    "0x406023",
+	    "0x4061c8",
+	    "0x406211",
+	    "0x40645f",
+	    "0x40648c",
+	    "0x406524",
+	    "0x40653f",
+	    "0x406583",
+	    "0x4065a7",
+	    "0x406607",
+	    "0x40660a",
+	    "0x406636",
+	    "0x406645",
+	    "0x406675",
+	    "0x40672c",
+	    "0x40676e"
+	  ]
+	},
+	"0x30": {
+	  "base":false,
+	  "name":"mbr_0x30",
+	  "offset":"0x30",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x405377",
+	    "0x4057a6",
+	    "0x40581c",
+	    "0x405876",
+	    "0x405a6c",
+	    "0x406808",
+	    "0x40681f",
+	    "0x406863",
+	    "0x40689a",
+	    "0x4068d7",
+	    "0x4068e7",
+	    "0x40693b",
+	    "0x4069cc",
+	    "0x406a0e"
+	  ]
+	},
+	"0x34": {
+	  "base":false,
+	  "name":"mbr_0x34",
+	  "offset":"0x34",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4053c9", "0x405558" ]
+	},
+	"0x38": {
+	  "base":false,
+	  "name":"mbr_0x38",
+	  "offset":"0x38",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x4053c2",
+	    "0x405683",
+	    "0x4056b5",
+	    "0x40583a",
+	    "0x405a32",
+	    "0x405a4b",
+	    "0x405e4d",
+	    "0x405ecb",
+	    "0x406216",
+	    "0x4062b4",
+	    "0x406514",
+	    "0x4067d6"
+	  ]
+	},
+	"0x3c": {
+	  "base":false,
+	  "name":"mbr_0x3c",
+	  "offset":"0x3c",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x4052f6",
+	    "0x405324",
+	    "0x405944",
+	    "0x405e68",
+	    "0x405e73",
+	    "0x405ebe",
+	    "0x40600a",
+	    "0x4061f8",
+	    "0x406659"
+	  ]
+	},
+	"0x3d": {
+	  "base":false,
+	  "name":"mbr_0x3d",
+	  "offset":"0x3d",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x405361",
+	    "0x40568d",
+	    "0x4056e9",
+	    "0x4056fe",
+	    "0x40571f",
+	    "0x405789"
+	  ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x405351",
+	    "0x405392",
+	    "0x405777",
+	    "0x4057c1",
+	    "0x405858",
+	    "0x40588b",
+	    "0x405a4e",
+	    "0x405a84"
+	  ]
+	},
+	"0x40": {
+	  "base":false,
+	  "name":"mbr_0x40",
+	  "offset":"0x40",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x4053bc",
+	    "0x4056cb",
+	    "0x405834",
+	    "0x405f2e",
+	    "0x406007",
+	    "0x406028",
+	    "0x40626a"
+	  ]
+	},
+	"0x44": {
+	  "base":false,
+	  "name":"mbr_0x44",
+	  "offset":"0x44",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4053bf", "0x405837", "0x405f34", "0x40600d", "0x40602e" ]
+	},
+	"0x48": {
+	  "base":false,
+	  "name":"mbr_0x48",
+	  "offset":"0x48",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405311", "0x405354", "0x405774" ]
+	},
+	"0x4c": {
+	  "base":false,
+	  "name":"mbr_0x4c",
+	  "offset":"0x4c",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x4052e7",
+	    "0x40531b",
+	    "0x405346",
+	    "0x4053aa",
+	    "0x40570c",
+	    "0x405824",
+	    "0x4058b0",
+	    "0x405970",
+	    "0x405e41",
+	    "0x405ee5",
+	    "0x405f05",
+	    "0x405f18",
+	    "0x405fdb",
+	    "0x405fee",
+	    "0x4060e0",
+	    "0x4060e9",
+	    "0x4060fa",
+	    "0x406143",
+	    "0x406163",
+	    "0x4061e7",
+	    "0x40621a",
+	    "0x40639c",
+	    "0x406410",
+	    "0x40664e",
+	    "0x406683",
+	    "0x4066ab",
+	    "0x406956"
+	  ]
+	},
+	"0x50": {
+	  "base":false,
+	  "name":"mbr_0x50",
+	  "offset":"0x50",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x405300",
+	    "0x40532e",
+	    "0x40594b",
+	    "0x405e7b",
+	    "0x406017",
+	    "0x406205",
+	    "0x406666"
+	  ]
+	},
+	"0x54": {
+	  "base":false,
+	  "name":"mbr_0x54",
+	  "offset":"0x54",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x4052fd",
+	    "0x40532b",
+	    "0x40594f",
+	    "0x405e85",
+	    "0x406014",
+	    "0x406202",
+	    "0x406663"
+	  ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x405368",
+	    "0x40537d",
+	    "0x40577d",
+	    "0x4057ac",
+	    "0x405855",
+	    "0x405879",
+	    "0x405a42",
+	    "0x405a72"
+	  ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x4052f3",
+	    "0x405321",
+	    "0x405358",
+	    "0x40538f",
+	    "0x405780",
+	    "0x405807",
+	    "0x40585e",
+	    "0x405941",
+	    "0x405a51",
+	    "0x405e13",
+	    "0x405e70",
+	    "0x406004",
+	    "0x4061f5",
+	    "0x4061ff",
+	    "0x406656",
+	    "0x406660"
+	  ]
+	}
+      },
+      "methods": {
+	"0x4052c0": {
+	  "demangled_name":"",
+	  "ea":"0x4052c0",
+	  "import":false,
+	  "name":"dtor_0x4052c0",
+	  "type":"dtor"
+	},
+	"0x405490": {
+	  "demangled_name":"",
+	  "ea":"0x405490",
+	  "import":false,
+	  "name":"virt_meth_0x405490",
+	  "type":"meth"
+	},
+	"0x405550": {
+	  "demangled_name":"",
+	  "ea":"0x405550",
+	  "import":false,
+	  "name":"virt_deldtor_0x405550",
+	  "type":"deldtor"
+	},
+	"0x405670": {
+	  "demangled_name":"",
+	  "ea":"0x405670",
+	  "import":false,
+	  "name":"meth_0x405670",
+	  "type":"meth"
+	},
+	"0x405760": {
+	  "demangled_name":"",
+	  "ea":"0x405760",
+	  "import":false,
+	  "name":"meth_0x405760",
+	  "type":"meth"
+	},
+	"0x405850": {
+	  "demangled_name":"",
+	  "ea":"0x405850",
+	  "import":false,
+	  "name":"meth_0x405850",
+	  "type":"meth"
+	},
+	"0x4058b0": {
+	  "demangled_name":"",
+	  "ea":"0x4058b0",
+	  "import":false,
+	  "name":"virt_meth_0x4058b0",
+	  "type":"meth"
+	},
+	"0x4058c0": {
+	  "demangled_name":"",
+	  "ea":"0x4058c0",
+	  "import":false,
+	  "name":"virt_meth_0x4058c0",
+	  "type":"meth"
+	},
+	"0x405940": {
+	  "demangled_name":"",
+	  "ea":"0x405940",
+	  "import":false,
+	  "name":"meth_0x405940",
+	  "type":"meth"
+	},
+	"0x405970": {
+	  "demangled_name":"",
+	  "ea":"0x405970",
+	  "import":false,
+	  "name":"virt_meth_0x405970",
+	  "type":"meth"
+	},
+	"0x405a00": {
+	  "demangled_name":"",
+	  "ea":"0x405a00",
+	  "import":false,
+	  "name":"virt_meth_0x405a00",
+	  "type":"meth"
+	},
+	"0x405aa0": {
+	  "demangled_name":"",
+	  "ea":"0x405aa0",
+	  "import":false,
+	  "name":"virt_meth_0x405aa0",
+	  "type":"meth"
+	},
+	"0x405c60": {
+	  "demangled_name":"",
+	  "ea":"0x405c60",
+	  "import":false,
+	  "name":"virt_meth_0x405c60",
+	  "type":"meth"
+	},
+	"0x405df0": {
+	  "demangled_name":"",
+	  "ea":"0x405df0",
+	  "import":false,
+	  "name":"virt_meth_0x405df0",
+	  "type":"meth"
+	},
+	"0x405e00": {
+	  "demangled_name":"",
+	  "ea":"0x405e00",
+	  "import":false,
+	  "name":"virt_meth_0x405e00",
+	  "type":"meth"
+	},
+	"0x405eb0": {
+	  "demangled_name":"",
+	  "ea":"0x405eb0",
+	  "import":false,
+	  "name":"virt_meth_0x405eb0",
+	  "type":"meth"
+	},
+	"0x405f90": {
+	  "demangled_name":"",
+	  "ea":"0x405f90",
+	  "import":false,
+	  "name":"virt_meth_0x405f90",
+	  "type":"meth"
+	},
+	"0x405fc0": {
+	  "demangled_name":"",
+	  "ea":"0x405fc0",
+	  "import":false,
+	  "name":"virt_meth_0x405fc0",
+	  "type":"meth"
+	},
+	"0x406090": {
+	  "demangled_name":"",
+	  "ea":"0x406090",
+	  "import":false,
+	  "name":"virt_meth_0x406090",
+	  "type":"meth"
+	},
+	"0x4060c0": {
+	  "demangled_name":"",
+	  "ea":"0x4060c0",
+	  "import":false,
+	  "name":"virt_meth_0x4060c0",
+	  "type":"meth"
+	},
+	"0x406120": {
+	  "demangled_name":"",
+	  "ea":"0x406120",
+	  "import":false,
+	  "name":"virt_meth_0x406120",
+	  "type":"meth"
+	},
+	"0x406130": {
+	  "demangled_name":"",
+	  "ea":"0x406130",
+	  "import":false,
+	  "name":"virt_meth_0x406130",
+	  "type":"meth"
+	},
+	"0x406140": {
+	  "demangled_name":"",
+	  "ea":"0x406140",
+	  "import":false,
+	  "name":"virt_meth_0x406140",
+	  "type":"meth"
+	},
+	"0x406180": {
+	  "demangled_name":"",
+	  "ea":"0x406180",
+	  "import":false,
+	  "name":"virt_meth_0x406180",
+	  "type":"meth"
+	},
+	"0x406190": {
+	  "demangled_name":"",
+	  "ea":"0x406190",
+	  "import":false,
+	  "name":"virt_meth_0x406190",
+	  "type":"meth"
+	},
+	"0x406440": {
+	  "demangled_name":"",
+	  "ea":"0x406440",
+	  "import":false,
+	  "name":"virt_meth_0x406440",
+	  "type":"meth"
+	},
+	"0x406480": {
+	  "demangled_name":"",
+	  "ea":"0x406480",
+	  "import":false,
+	  "name":"virt_meth_0x406480",
+	  "type":"meth"
+	},
+	"0x4064e0": {
+	  "demangled_name":"",
+	  "ea":"0x4064e0",
+	  "import":false,
+	  "name":"virt_meth_0x4064e0",
+	  "type":"meth"
+	},
+	"0x4064f0": {
+	  "demangled_name":"",
+	  "ea":"0x4064f0",
+	  "import":false,
+	  "name":"virt_meth_0x4064f0",
+	  "type":"meth"
+	},
+	"0x4066f0": {
+	  "demangled_name":"",
+	  "ea":"0x4066f0",
+	  "import":false,
+	  "name":"virt_meth_0x4066f0",
+	  "type":"meth"
+	},
+	"0x4067d0": {
+	  "demangled_name":"",
+	  "ea":"0x4067d0",
+	  "import":false,
+	  "name":"virt_meth_0x4067d0",
+	  "type":"meth"
+	},
+	"0x406990": {
+	  "demangled_name":"",
+	  "ea":"0x406990",
+	  "import":false,
+	  "name":"virt_meth_0x406990",
+	  "type":"meth"
+	}
+      },
+      "name":".?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@",
+      "size":88,
+      "vftables": {
+	"0x420fa4": {
+	  "ea":"0x420fa4",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x405490",
+	      "import":false,
+	      "name":"virt_meth_0x405490",
+	      "offset":0,
+	      "type":"meth"
+	    },
+	    "1": {
+	      "demangled_name":"",
+	      "ea":"0x4058b0",
+	      "import":false,
+	      "name":"virt_meth_0x4058b0",
+	      "offset":1,
+	      "type":"meth"
+	    },
+	    "10": {
+	      "demangled_name":"",
+	      "ea":"0x405eb0",
+	      "import":false,
+	      "name":"virt_meth_0x405eb0",
+	      "offset":10,
+	      "type":"meth"
+	    },
+	    "11": {
+	      "demangled_name":"",
+	      "ea":"0x405fc0",
+	      "import":false,
+	      "name":"virt_meth_0x405fc0",
+	      "offset":11,
+	      "type":"meth"
+	    },
+	    "12": {
+	      "demangled_name":"",
+	      "ea":"0x4060c0",
+	      "import":false,
+	      "name":"virt_meth_0x4060c0",
+	      "offset":12,
+	      "type":"meth"
+	    },
+	    "13": {
+	      "demangled_name":"",
+	      "ea":"0x406140",
+	      "import":false,
+	      "name":"virt_meth_0x406140",
+	      "offset":13,
+	      "type":"meth"
+	    },
+	    "14": {
+	      "demangled_name":"",
+	      "ea":"0x405a00",
+	      "import":false,
+	      "name":"virt_meth_0x405a00",
+	      "offset":14,
+	      "type":"meth"
+	    },
+	    "2": {
+	      "demangled_name":"",
+	      "ea":"0x405970",
+	      "import":false,
+	      "name":"virt_meth_0x405970",
+	      "offset":2,
+	      "type":"meth"
+	    },
+	    "3": {
+	      "demangled_name":"",
+	      "ea":"0x405c60",
+	      "import":false,
+	      "name":"virt_meth_0x405c60",
+	      "offset":3,
+	      "type":"meth"
+	    },
+	    "4": {
+	      "demangled_name":"",
+	      "ea":"0x405e00",
+	      "import":false,
+	      "name":"virt_meth_0x405e00",
+	      "offset":4,
+	      "type":"meth"
+	    },
+	    "5": {
+	      "demangled_name":"",
+	      "ea":"0x406130",
+	      "import":false,
+	      "name":"virt_meth_0x406130",
+	      "offset":5,
+	      "type":"meth"
+	    },
+	    "6": {
+	      "demangled_name":"",
+	      "ea":"0x406480",
+	      "import":false,
+	      "name":"virt_meth_0x406480",
+	      "offset":6,
+	      "type":"meth"
+	    },
+	    "7": {
+	      "demangled_name":"",
+	      "ea":"0x406190",
+	      "import":false,
+	      "name":"virt_meth_0x406190",
+	      "offset":7,
+	      "type":"meth"
+	    },
+	    "8": {
+	      "demangled_name":"",
+	      "ea":"0x4064f0",
+	      "import":false,
+	      "name":"virt_meth_0x4064f0",
+	      "offset":8,
+	      "type":"meth"
+	    },
+	    "9": {
+	      "demangled_name":"",
+	      "ea":"0x4067d0",
+	      "import":false,
+	      "name":"virt_meth_0x4067d0",
+	      "offset":9,
+	      "type":"meth"
+	    }
+	  },
+	  "length":15,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AV?$codecvt@DDU_Mbstatet@@@std@@": {
+      "demangled_name":"std::codecvt<char, char, struct _Mbstatet>",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"vftptr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"vftptr",
+	  "usages": ["0x4055da" ]
+	}
+      },
+      "methods": {
+	"0x4055d0": {
+	  "demangled_name":"",
+	  "ea":"0x4055d0",
+	  "import":false,
+	  "name":"virt_deldtor_0x4055d0",
+	  "type":"deldtor"
+	},
+	"0x405980": {
+	  "demangled_name":"",
+	  "ea":"0x405980",
+	  "import":false,
+	  "name":"virt_meth_0x405980",
+	  "type":"meth"
+	},
+	"0x405990": {
+	  "demangled_name":"",
+	  "ea":"0x405990",
+	  "import":false,
+	  "name":"virt_meth_0x405990",
+	  "type":"meth"
+	},
+	"0x4059a0": {
+	  "demangled_name":"",
+	  "ea":"0x4059a0",
+	  "import":false,
+	  "name":"virt_meth_0x4059a0",
+	  "type":"meth"
+	},
+	"0x4059c0": {
+	  "demangled_name":"",
+	  "ea":"0x4059c0",
+	  "import":false,
+	  "name":"virt_meth_0x4059c0",
+	  "type":"meth"
+	},
+	"0x4059e0": {
+	  "demangled_name":"",
+	  "ea":"0x4059e0",
+	  "import":false,
+	  "name":"virt_meth_0x4059e0",
+	  "type":"meth"
+	}
+      },
+      "name":".?AV?$codecvt@DDU_Mbstatet@@@std@@",
+      "size":4,
+      "vftables": {
+	"0x420fe4": {
+	  "ea":"0x420fe4",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x4055d0",
+	      "import":false,
+	      "name":"virt_deldtor_0x4055d0",
+	      "offset":0,
+	      "type":"deldtor"
+	    },
+	    "3": {
+	      "demangled_name":"",
+	      "ea":"0x405980",
+	      "import":false,
+	      "name":"virt_meth_0x405980",
+	      "offset":3,
+	      "type":"meth"
+	    },
+	    "4": {
+	      "demangled_name":"",
+	      "ea":"0x405990",
+	      "import":false,
+	      "name":"virt_meth_0x405990",
+	      "offset":4,
+	      "type":"meth"
+	    },
+	    "5": {
+	      "demangled_name":"",
+	      "ea":"0x405990",
+	      "import":false,
+	      "name":"virt_meth_0x405990",
+	      "offset":5,
+	      "type":"meth"
+	    },
+	    "6": {
+	      "demangled_name":"",
+	      "ea":"0x4059a0",
+	      "import":false,
+	      "name":"virt_meth_0x4059a0",
+	      "offset":6,
+	      "type":"meth"
+	    },
+	    "7": {
+	      "demangled_name":"",
+	      "ea":"0x4059a0",
+	      "import":false,
+	      "name":"virt_meth_0x4059a0",
+	      "offset":7,
+	      "type":"meth"
+	    },
+	    "8": {
+	      "demangled_name":"",
+	      "ea":"0x4059e0",
+	      "import":false,
+	      "name":"virt_meth_0x4059e0",
+	      "offset":8,
+	      "type":"meth"
+	    },
+	    "9": {
+	      "demangled_name":"",
+	      "ea":"0x4059c0",
+	      "import":false,
+	      "name":"virt_meth_0x4059c0",
+	      "offset":9,
+	      "type":"meth"
+	    }
+	  },
+	  "length":10,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AV?$ctype@D@std@@": {
+      "demangled_name":"std::ctype<char>",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":".?AUctype_base@std@@_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":8,
+	  "struc":".?AUctype_base@std@@",
+	  "type":"struc",
+	  "usages": ["0x40211c", "0x40293a" ]
+	},
+	"0x10": {
+	  "base":false,
+	  "name":"mbr_0x10",
+	  "offset":"0x10",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4033d8", "0x40389c", "0x4038b6" ]
+	},
+	"0x14": {
+	  "base":false,
+	  "name":"mbr_0x14",
+	  "offset":"0x14",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4033de", "0x4038d4" ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4033cd" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4033d2", "0x4038a5", "0x4038bf" ]
+	}
+      },
+      "methods": {
+	"0x4020e0": {
+	  "demangled_name":"",
+	  "ea":"0x4020e0",
+	  "import":false,
+	  "name":"ctor_0x4020e0",
+	  "type":"ctor"
+	},
+	"0x402930": {
+	  "demangled_name":"",
+	  "ea":"0x402930",
+	  "import":false,
+	  "name":"dtor_0x402930",
+	  "type":"dtor"
+	},
+	"0x402df0": {
+	  "demangled_name":"",
+	  "ea":"0x402df0",
+	  "import":false,
+	  "name":"virt_meth_0x402df0",
+	  "type":"meth"
+	},
+	"0x4033b0": {
+	  "demangled_name":"",
+	  "ea":"0x4033b0",
+	  "import":false,
+	  "name":"meth_0x4033b0",
+	  "type":"meth"
+	},
+	"0x403890": {
+	  "demangled_name":"",
+	  "ea":"0x403890",
+	  "import":false,
+	  "name":"meth_0x403890",
+	  "type":"meth"
+	},
+	"0x403be0": {
+	  "demangled_name":"",
+	  "ea":"0x403be0",
+	  "import":false,
+	  "name":"virt_meth_0x403be0",
+	  "type":"meth"
+	},
+	"0x403c00": {
+	  "demangled_name":"",
+	  "ea":"0x403c00",
+	  "import":false,
+	  "name":"virt_meth_0x403c00",
+	  "type":"meth"
+	},
+	"0x403c40": {
+	  "demangled_name":"",
+	  "ea":"0x403c40",
+	  "import":false,
+	  "name":"virt_meth_0x403c40",
+	  "type":"meth"
+	},
+	"0x403c70": {
+	  "demangled_name":"",
+	  "ea":"0x403c70",
+	  "import":false,
+	  "name":"virt_meth_0x403c70",
+	  "type":"meth"
+	},
+	"0x403cc0": {
+	  "demangled_name":"",
+	  "ea":"0x403cc0",
+	  "import":false,
+	  "name":"virt_meth_0x403cc0",
+	  "type":"meth"
+	},
+	"0x403cf0": {
+	  "demangled_name":"",
+	  "ea":"0x403cf0",
+	  "import":false,
+	  "name":"virt_meth_0x403cf0",
+	  "type":"meth"
+	},
+	"0x403d40": {
+	  "demangled_name":"",
+	  "ea":"0x403d40",
+	  "import":false,
+	  "name":"virt_meth_0x403d40",
+	  "type":"meth"
+	},
+	"0x403d60": {
+	  "demangled_name":"",
+	  "ea":"0x403d60",
+	  "import":false,
+	  "name":"virt_meth_0x403d60",
+	  "type":"meth"
+	}
+      },
+      "name":".?AV?$ctype@D@std@@",
+      "size":24,
+      "vftables": {
+	"0x42032c": {
+	  "ea":"0x42032c",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x402df0",
+	      "import":false,
+	      "name":"virt_meth_0x402df0",
+	      "offset":0,
+	      "type":"meth"
+	    },
+	    "10": {
+	      "demangled_name":"",
+	      "ea":"0x403be0",
+	      "import":false,
+	      "name":"virt_meth_0x403be0",
+	      "offset":10,
+	      "type":"meth"
+	    },
+	    "3": {
+	      "demangled_name":"",
+	      "ea":"0x403c70",
+	      "import":false,
+	      "name":"virt_meth_0x403c70",
+	      "offset":3,
+	      "type":"meth"
+	    },
+	    "4": {
+	      "demangled_name":"",
+	      "ea":"0x403c40",
+	      "import":false,
+	      "name":"virt_meth_0x403c40",
+	      "offset":4,
+	      "type":"meth"
+	    },
+	    "5": {
+	      "demangled_name":"",
+	      "ea":"0x403cf0",
+	      "import":false,
+	      "name":"virt_meth_0x403cf0",
+	      "offset":5,
+	      "type":"meth"
+	    },
+	    "6": {
+	      "demangled_name":"",
+	      "ea":"0x403cc0",
+	      "import":false,
+	      "name":"virt_meth_0x403cc0",
+	      "offset":6,
+	      "type":"meth"
+	    },
+	    "7": {
+	      "demangled_name":"",
+	      "ea":"0x403d60",
+	      "import":false,
+	      "name":"virt_meth_0x403d60",
+	      "offset":7,
+	      "type":"meth"
+	    },
+	    "8": {
+	      "demangled_name":"",
+	      "ea":"0x403d40",
+	      "import":false,
+	      "name":"virt_meth_0x403d40",
+	      "offset":8,
+	      "type":"meth"
+	    },
+	    "9": {
+	      "demangled_name":"",
+	      "ea":"0x403c00",
+	      "import":false,
+	      "name":"virt_meth_0x403c00",
+	      "offset":9,
+	      "type":"meth"
+	    }
+	  },
+	  "length":11,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AV_Facet_base@std@@": {
+      "demangled_name":"std::_Facet_base",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"vftptr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"vftptr",
+	  "usages": ["0x40217a", "0x4029aa" ]
+	}
+      },
+      "methods": {
+	"0x402170": {
+	  "demangled_name":"",
+	  "ea":"0x402170",
+	  "import":false,
+	  "name":"ctor_0x402170",
+	  "type":"ctor"
+	},
+	"0x4029a0": {
+	  "demangled_name":"",
+	  "ea":"0x4029a0",
+	  "import":false,
+	  "name":"dtor_0x4029a0",
+	  "type":"dtor"
+	},
+	"0x402e20": {
+	  "demangled_name":"",
+	  "ea":"0x402e20",
+	  "import":false,
+	  "name":"virt_meth_0x402e20",
+	  "type":"meth"
+	},
+	"0x407c10": {
+	  "demangled_name":"",
+	  "ea":"0x407c10",
+	  "import":false,
+	  "name":"virt_meth_0x407c10",
+	  "type":"meth"
+	}
+      },
+      "name":".?AV_Facet_base@std@@",
+      "size":4,
+      "vftables": {
+	"0x4202e8": {
+	  "ea":"0x4202e8",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x402e20",
+	      "import":false,
+	      "name":"virt_meth_0x402e20",
+	      "offset":0,
+	      "type":"meth"
+	    },
+	    "1": {
+	      "demangled_name":"",
+	      "ea":"0x407c10",
+	      "import":false,
+	      "name":"virt_meth_0x407c10",
+	      "offset":1,
+	      "type":"meth"
+	    },
+	    "2": {
+	      "demangled_name":"",
+	      "ea":"0x407c10",
+	      "import":false,
+	      "name":"virt_meth_0x407c10",
+	      "offset":2,
+	      "type":"meth"
+	    }
+	  },
+	  "length":3,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AV_Locimp@locale@std@@": {
+      "demangled_name":"std::locale::_Locimp",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"vftptr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"vftptr",
+	  "usages": ["0x404922", "0x4049ab" ]
+	},
+	"0x18": {
+	  "base":false,
+	  "name":"mbr_0x18",
+	  "offset":"0x18",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x404990", "0x4049a4" ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x404930", "0x404940", "0x40497e" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40492d" ]
+	}
+      },
+      "methods": {
+	"0x404910": {
+	  "demangled_name":"",
+	  "ea":"0x404910",
+	  "import":false,
+	  "name":"virt_deldtor_0x404910",
+	  "type":"deldtor"
+	}
+      },
+      "name":".?AV_Locimp@locale@std@@",
+      "size":28,
+      "vftables": {
+	"0x420f30": {
+	  "ea":"0x420f30",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x404910",
+	      "import":false,
+	      "name":"virt_deldtor_0x404910",
+	      "offset":0,
+	      "type":"deldtor"
+	    }
+	  },
+	  "length":3,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AV_System_error@std@@": {
+      "demangled_name":"std::_System_error",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":".?AVruntime_error@std@@_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":12,
+	  "struc":".?AVruntime_error@std@@",
+	  "type":"struc",
+	  "usages": ["0x40233f", "0x402396" ]
+	},
+	"0x10": {
+	  "base":false,
+	  "name":"mbr_0x10",
+	  "offset":"0x10",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x402351", "0x4023ab" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40234e", "0x4023a8" ]
+	}
+      },
+      "methods": {
+	"0x4022c0": {
+	  "demangled_name":"",
+	  "ea":"0x4022c0",
+	  "import":false,
+	  "name":"ctor_0x4022c0",
+	  "type":"ctor"
+	},
+	"0x402380": {
+	  "demangled_name":"",
+	  "ea":"0x402380",
+	  "import":false,
+	  "name":"ctor_0x402380",
+	  "type":"ctor"
+	},
+	"0x402e80": {
+	  "demangled_name":"",
+	  "ea":"0x402e80",
+	  "import":false,
+	  "name":"virt_meth_0x402e80",
+	  "type":"meth"
+	}
+      },
+      "name":".?AV_System_error@std@@",
+      "size":20,
+      "vftables": {
+	"0x420274": {
+	  "ea":"0x420274",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x402e80",
+	      "import":false,
+	      "name":"virt_meth_0x402e80",
+	      "offset":0,
+	      "type":"meth"
+	    }
+	  },
+	  "length":2,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AVbad_alloc@std@@": {
+      "demangled_name":"std::bad_alloc",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":".?AVexception@std@@_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":12,
+	  "struc":".?AVexception@std@@",
+	  "type":"struc",
+	  "usages": ["0x4023d8", "0x402406", "0x4046a1" ]
+	},
+	"0x4": {
+	  "base":true,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":8,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x404695", "0x40469a" ]
+	}
+      },
+      "methods": {
+	"0x4023c0": {
+	  "demangled_name":"",
+	  "ea":"0x4023c0",
+	  "import":false,
+	  "name":"ctor_0x4023c0",
+	  "type":"ctor"
+	},
+	"0x4023f0": {
+	  "demangled_name":"",
+	  "ea":"0x4023f0",
+	  "import":false,
+	  "name":"ctor_0x4023f0",
+	  "type":"ctor"
+	},
+	"0x404690": {
+	  "demangled_name":"",
+	  "ea":"0x404690",
+	  "import":false,
+	  "name":"ctor_0x404690",
+	  "type":"ctor"
+	}
+      },
+      "name":".?AVbad_alloc@std@@",
+      "size":12,
+      "vftables": {
+	"0x420228": {"ea":"0x420228", "entries": {}, "length":2, "vftptr":"0x0"}
+      }
+    },
+    ".?AVbad_array_new_length@std@@": {
+      "demangled_name":"std::bad_array_new_length",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":".?AVbad_alloc@std@@_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":12,
+	  "struc":".?AVbad_alloc@std@@",
+	  "type":"struc",
+	  "usages": ["0x402436", "0x402467" ]
+	}
+      },
+      "methods": {
+	"0x402420": {
+	  "demangled_name":"",
+	  "ea":"0x402420",
+	  "import":false,
+	  "name":"ctor_0x402420",
+	  "type":"ctor"
+	},
+	"0x402450": {
+	  "demangled_name":"",
+	  "ea":"0x402450",
+	  "import":false,
+	  "name":"ctor_0x402450",
+	  "type":"ctor"
+	},
+	"0x402ad0": {
+	  "demangled_name":"",
+	  "ea":"0x402ad0",
+	  "import":false,
+	  "name":"meth_0x402ad0",
+	  "type":"meth"
+	},
+	"0x402ee0": {
+	  "demangled_name":"",
+	  "ea":"0x402ee0",
+	  "import":false,
+	  "name":"virt_meth_0x402ee0",
+	  "type":"meth"
+	}
+      },
+      "name":".?AVbad_array_new_length@std@@",
+      "size":12,
+      "vftables": {
+	"0x420234": {
+	  "ea":"0x420234",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x402ee0",
+	      "import":false,
+	      "name":"virt_meth_0x402ee0",
+	      "offset":0,
+	      "type":"meth"
+	    }
+	  },
+	  "length":2,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AVbad_cast@std@@": {
+      "demangled_name":"std::bad_cast",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":".?AVexception@std@@_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":12,
+	  "struc":".?AVexception@std@@",
+	  "type":"struc",
+	  "usages": ["0x402496", "0x4024c9" ]
+	}
+      },
+      "methods": {
+	"0x402480": {
+	  "demangled_name":"",
+	  "ea":"0x402480",
+	  "import":false,
+	  "name":"ctor_0x402480",
+	  "type":"ctor"
+	},
+	"0x4024b0": {
+	  "demangled_name":"",
+	  "ea":"0x4024b0",
+	  "import":false,
+	  "name":"ctor_0x4024b0",
+	  "type":"ctor"
+	}
+      },
+      "name":".?AVbad_cast@std@@",
+      "size":12,
+      "vftables": {
+	"0x4202d0": {"ea":"0x4202d0", "entries": {}, "length":2, "vftptr":"0x0"}
+      }
+    },
+    ".?AVbad_exception@std@@": {
+      "demangled_name":"std::bad_exception",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"vftptr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"vftptr",
+	  "usages": ["0x4098cd", "0x4098e6", "0x409911" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":8,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4098c9", "0x4098d3", "0x409905", "0x40990a" ]
+	}
+      },
+      "methods": {
+	"0x4098c0": {
+	  "demangled_name":"",
+	  "ea":"0x4098c0",
+	  "import":false,
+	  "name":"ctor_0x4098c0",
+	  "type":"ctor"
+	},
+	"0x409900": {
+	  "demangled_name":"",
+	  "ea":"0x409900",
+	  "import":false,
+	  "name":"ctor_0x409900",
+	  "type":"ctor"
+	}
+      },
+      "name":".?AVbad_exception@std@@",
+      "size":12,
+      "vftables": {
+	"0x423638": {"ea":"0x423638", "entries": {}, "length":2, "vftptr":"0x0"}
+      }
+    },
+    ".?AVexception@std@@": {
+      "demangled_name":"std::exception",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"vftptr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"vftptr",
+	  "usages": ["0x40254a", "0x40258c", "0x4025da", "0x402b3a" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x402558",
+	    "0x40259a",
+	    "0x4025e8",
+	    "0x4025f3",
+	    "0x40447c",
+	    "0x404485"
+	  ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40255a", "0x40259c", "0x4025ea" ]
+	}
+      },
+      "methods": {
+	"0x402540": {
+	  "demangled_name":"",
+	  "ea":"0x402540",
+	  "import":false,
+	  "name":"ctor_0x402540",
+	  "type":"ctor"
+	},
+	"0x402580": {
+	  "demangled_name":"",
+	  "ea":"0x402580",
+	  "import":false,
+	  "name":"ctor_0x402580",
+	  "type":"ctor"
+	},
+	"0x4025d0": {
+	  "demangled_name":"",
+	  "ea":"0x4025d0",
+	  "import":false,
+	  "name":"ctor_0x4025d0",
+	  "type":"ctor"
+	},
+	"0x402b30": {
+	  "demangled_name":"",
+	  "ea":"0x402b30",
+	  "import":false,
+	  "name":"dtor_0x402b30",
+	  "type":"dtor"
+	},
+	"0x402f40": {
+	  "demangled_name":"",
+	  "ea":"0x402f40",
+	  "import":false,
+	  "name":"virt_meth_0x402f40",
+	  "type":"meth"
+	},
+	"0x404470": {
+	  "demangled_name":"",
+	  "ea":"0x404470",
+	  "import":false,
+	  "name":"virt_meth_0x404470",
+	  "type":"meth"
+	}
+      },
+      "name":".?AVexception@std@@",
+      "size":12,
+      "vftables": {
+	"0x420208": {
+	  "ea":"0x420208",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x402f40",
+	      "import":false,
+	      "name":"virt_meth_0x402f40",
+	      "offset":0,
+	      "type":"meth"
+	    },
+	    "1": {
+	      "demangled_name":"",
+	      "ea":"0x404470",
+	      "import":false,
+	      "name":"virt_meth_0x404470",
+	      "offset":1,
+	      "type":"meth"
+	    }
+	  },
+	  "length":2,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AVfacet@locale@std@@": {
+      "demangled_name":"std::locale::facet",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":".?AV_Facet_base@std@@_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":4,
+	  "struc":".?AV_Facet_base@std@@",
+	  "type":"struc",
+	  "usages": ["0x402612", "0x402b6a" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40261e", "0x403190", "0x40339d" ]
+	}
+      },
+      "methods": {
+	"0x402600": {
+	  "demangled_name":"",
+	  "ea":"0x402600",
+	  "import":false,
+	  "name":"ctor_0x402600",
+	  "type":"ctor"
+	},
+	"0x402b60": {
+	  "demangled_name":"",
+	  "ea":"0x402b60",
+	  "import":false,
+	  "name":"dtor_0x402b60",
+	  "type":"dtor"
+	},
+	"0x402f70": {
+	  "demangled_name":"",
+	  "ea":"0x402f70",
+	  "import":false,
+	  "name":"virt_meth_0x402f70",
+	  "type":"meth"
+	},
+	"0x403180": {
+	  "demangled_name":"",
+	  "ea":"0x403180",
+	  "import":false,
+	  "name":"virt_meth_0x403180",
+	  "type":"meth"
+	},
+	"0x403390": {
+	  "demangled_name":"",
+	  "ea":"0x403390",
+	  "import":false,
+	  "name":"virt_meth_0x403390",
+	  "type":"meth"
+	}
+      },
+      "name":".?AVfacet@locale@std@@",
+      "size":8,
+      "vftables": {
+	"0x420308": {
+	  "ea":"0x420308",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x402f70",
+	      "import":false,
+	      "name":"virt_meth_0x402f70",
+	      "offset":0,
+	      "type":"meth"
+	    },
+	    "1": {
+	      "demangled_name":"",
+	      "ea":"0x403390",
+	      "import":false,
+	      "name":"virt_meth_0x403390",
+	      "offset":1,
+	      "type":"meth"
+	    },
+	    "2": {
+	      "demangled_name":"",
+	      "ea":"0x403180",
+	      "import":false,
+	      "name":"virt_meth_0x403180",
+	      "offset":2,
+	      "type":"meth"
+	    }
+	  },
+	  "length":3,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AVfailure@ios_base@std@@": {
+      "demangled_name":"std::ios_base::failure",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":".?AVsystem_error@std@@_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":20,
+	  "struc":".?AVsystem_error@std@@",
+	  "type":"struc",
+	  "usages": ["0x402646", "0x402680" ]
+	}
+      },
+      "methods": {
+	"0x402630": {
+	  "demangled_name":"",
+	  "ea":"0x402630",
+	  "import":false,
+	  "name":"ctor_0x402630",
+	  "type":"ctor"
+	},
+	"0x402660": {
+	  "demangled_name":"",
+	  "ea":"0x402660",
+	  "import":false,
+	  "name":"ctor_0x402660",
+	  "type":"ctor"
+	},
+	"0x402b80": {
+	  "demangled_name":"",
+	  "ea":"0x402b80",
+	  "import":false,
+	  "name":"meth_0x402b80",
+	  "type":"meth"
+	},
+	"0x402fa0": {
+	  "demangled_name":"",
+	  "ea":"0x402fa0",
+	  "import":false,
+	  "name":"virt_meth_0x402fa0",
+	  "type":"meth"
+	}
+      },
+      "name":".?AVfailure@ios_base@std@@",
+      "size":20,
+      "vftables": {
+	"0x42035c": {
+	  "ea":"0x42035c",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x402fa0",
+	      "import":false,
+	      "name":"virt_meth_0x402fa0",
+	      "offset":0,
+	      "type":"meth"
+	    }
+	  },
+	  "length":2,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AVios_base@std@@": {
+      "demangled_name":"std::ios_base",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"vftptr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"vftptr",
+	  "usages": ["0x40545a", "0x40550a", "0x40562d" ]
+	}
+      },
+      "methods": {
+	"0x405430": {
+	  "demangled_name":"",
+	  "ea":"0x405430",
+	  "import":false,
+	  "name":"dtor_0x405430",
+	  "type":"dtor"
+	},
+	"0x4054c0": {
+	  "demangled_name":"",
+	  "ea":"0x4054c0",
+	  "import":false,
+	  "name":"ctor_0x4054c0",
+	  "type":"ctor"
+	},
+	"0x405600": {
+	  "demangled_name":"",
+	  "ea":"0x405600",
+	  "import":false,
+	  "name":"virt_deldtor_0x405600",
+	  "type":"deldtor"
+	}
+      },
+      "name":".?AVios_base@std@@",
+      "size":4,
+      "vftables": {
+	"0x420f4c": {
+	  "ea":"0x420f4c",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x405600",
+	      "import":false,
+	      "name":"virt_deldtor_0x405600",
+	      "offset":0,
+	      "type":"deldtor"
+	    }
+	  },
+	  "length":1,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AVlength_error@std@@": {
+      "demangled_name":"std::length_error",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"vftptr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"vftptr",
+	  "usages": ["0x4046bd", "0x4046d6", "0x40470c", "0x404723", "0x4047f9" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4046b9", "0x4046c3", "0x404702", "0x404713", "0x4047f6" ]
+	}
+      },
+      "methods": {
+	"0x4046b0": {
+	  "demangled_name":"",
+	  "ea":"0x4046b0",
+	  "import":false,
+	  "name":"ctor_0x4046b0",
+	  "type":"ctor"
+	},
+	"0x4046f0": {
+	  "demangled_name":"",
+	  "ea":"0x4046f0",
+	  "import":false,
+	  "name":"ctor_0x4046f0",
+	  "type":"ctor"
+	},
+	"0x4047f0": {
+	  "demangled_name":"",
+	  "ea":"0x4047f0",
+	  "import":false,
+	  "name":"virt_deldtor_0x4047f0",
+	  "type":"deldtor"
+	}
+      },
+      "name":".?AVlength_error@std@@",
+      "size":8,
+      "vftables": {
+	"0x4203cc": {
+	  "ea":"0x4203cc",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x4047f0",
+	      "import":false,
+	      "name":"virt_deldtor_0x4047f0",
+	      "offset":0,
+	      "type":"deldtor"
+	    }
+	  },
+	  "length":2,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AVlogic_error@std@@": {
+      "demangled_name":"std::logic_error",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"vftptr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"vftptr",
+	  "usages": ["0x40474d", "0x404766" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x404749", "0x404753" ]
+	}
+      },
+      "methods": {
+	"0x404740": {
+	  "demangled_name":"",
+	  "ea":"0x404740",
+	  "import":false,
+	  "name":"ctor_0x404740",
+	  "type":"ctor"
+	}
+      },
+      "name":".?AVlogic_error@std@@",
+      "size":8,
+      "vftables": {
+	"0x4203c0": {"ea":"0x4203c0", "entries": {}, "length":2, "vftptr":"0x0"}
+      }
+    },
+    ".?AVruntime_error@std@@": {
+      "demangled_name":"std::runtime_error",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":".?AVexception@std@@_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":12,
+	  "struc":".?AVexception@std@@",
+	  "type":"struc",
+	  "usages": ["0x4026d6", "0x40270b", "0x40479c", "0x4047b3" ]
+	},
+	"0x4": {
+	  "base":true,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x404792", "0x4047a3" ]
+	}
+      },
+      "methods": {
+	"0x4026c0": {
+	  "demangled_name":"",
+	  "ea":"0x4026c0",
+	  "import":false,
+	  "name":"ctor_0x4026c0",
+	  "type":"ctor"
+	},
+	"0x4026f0": {
+	  "demangled_name":"",
+	  "ea":"0x4026f0",
+	  "import":false,
+	  "name":"ctor_0x4026f0",
+	  "type":"ctor"
+	},
+	"0x402af0": {
+	  "demangled_name":"",
+	  "ea":"0x402af0",
+	  "import":false,
+	  "name":"meth_0x402af0",
+	  "type":"meth"
+	},
+	"0x402eb0": {
+	  "demangled_name":"",
+	  "ea":"0x402eb0",
+	  "import":false,
+	  "name":"virt_meth_0x402eb0",
+	  "type":"meth"
+	},
+	"0x404780": {
+	  "demangled_name":"",
+	  "ea":"0x404780",
+	  "import":false,
+	  "name":"ctor_0x404780",
+	  "type":"ctor"
+	}
+      },
+      "name":".?AVruntime_error@std@@",
+      "size":12,
+      "vftables": {
+	"0x420268": {
+	  "ea":"0x420268",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x402eb0",
+	      "import":false,
+	      "name":"virt_meth_0x402eb0",
+	      "offset":0,
+	      "type":"meth"
+	    }
+	  },
+	  "length":2,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AVsystem_error@std@@": {
+      "demangled_name":"std::system_error",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":".?AV_System_error@std@@_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":20,
+	  "struc":".?AV_System_error@std@@",
+	  "type":"struc",
+	  "usages": ["0x402806", "0x402885" ]
+	}
+      },
+      "methods": {
+	"0x4027f0": {
+	  "demangled_name":"",
+	  "ea":"0x4027f0",
+	  "import":false,
+	  "name":"ctor_0x4027f0",
+	  "type":"ctor"
+	},
+	"0x402820": {
+	  "demangled_name":"",
+	  "ea":"0x402820",
+	  "import":false,
+	  "name":"ctor_0x402820",
+	  "type":"ctor"
+	},
+	"0x402c40": {
+	  "demangled_name":"",
+	  "ea":"0x402c40",
+	  "import":false,
+	  "name":"meth_0x402c40",
+	  "type":"meth"
+	},
+	"0x402fd0": {
+	  "demangled_name":"",
+	  "ea":"0x402fd0",
+	  "import":false,
+	  "name":"virt_meth_0x402fd0",
+	  "type":"meth"
+	}
+      },
+      "name":".?AVsystem_error@std@@",
+      "size":20,
+      "vftables": {
+	"0x420284": {
+	  "ea":"0x420284",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x402fd0",
+	      "import":false,
+	      "name":"virt_meth_0x402fd0",
+	      "offset":0,
+	      "type":"meth"
+	    }
+	  },
+	  "length":2,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    ".?AVtype_info@@": {
+      "demangled_name":"type_info",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"vftptr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"vftptr",
+	  "usages": ["0x406f5a" ]
+	}
+      },
+      "methods": {
+	"0x406f50": {
+	  "demangled_name":"",
+	  "ea":"0x406f50",
+	  "import":false,
+	  "name":"virt_deldtor_0x406f50",
+	  "type":"deldtor"
+	},
+	"0x408750": {
+	  "demangled_name":"",
+	  "ea":"0x408750",
+	  "import":false,
+	  "name":"virt_meth_0x408750",
+	  "type":"meth"
+	}
+      },
+      "name":".?AVtype_info@@",
+      "size":4,
+      "vftables": {
+	"0x42362c": {
+	  "ea":"0x42362c",
+	  "entries": {
+	    "0": {
+	      "demangled_name":"",
+	      "ea":"0x406f50",
+	      "import":false,
+	      "name":"virt_deldtor_0x406f50",
+	      "offset":0,
+	      "type":"deldtor"
+	    },
+	    "1": {
+	      "demangled_name":"",
+	      "ea":"0x408750",
+	      "import":false,
+	      "name":"virt_meth_0x408750",
+	      "offset":1,
+	      "type":"meth"
+	    }
+	  },
+	  "length":2,
+	  "vftptr":"0x0"
+	}
+      }
+    },
+    "cls_0x401260": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"cls_0x401290_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":4,
+	  "struc":"cls_0x401290",
+	  "type":"struc",
+	  "usages": ["0x40215c", "0x40296a", "0x402972" ]
+	},
+	"0x10": {
+	  "base":false,
+	  "name":"mbr_0x10",
+	  "offset":"0x10",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x401e92" ]
+	},
+	"0x14": {
+	  "base":false,
+	  "name":"mbr_0x14",
+	  "offset":"0x14",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x401e9c" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40215e" ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x402161" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x402164" ]
+	}
+      },
+      "methods": {
+	"0x401260": {
+	  "demangled_name":"",
+	  "ea":"0x401260",
+	  "import":false,
+	  "name":"ctor_0x401260",
+	  "type":"ctor"
+	},
+	"0x4012c0": {
+	  "demangled_name":"",
+	  "ea":"0x4012c0",
+	  "import":false,
+	  "name":"ctor_0x4012c0",
+	  "type":"ctor"
+	},
+	"0x4012f0": {
+	  "demangled_name":"",
+	  "ea":"0x4012f0",
+	  "import":false,
+	  "name":"ctor_0x4012f0",
+	  "type":"ctor"
+	},
+	"0x401e80": {
+	  "demangled_name":"",
+	  "ea":"0x401e80",
+	  "import":false,
+	  "name":"meth_0x401e80",
+	  "type":"meth"
+	},
+	"0x401ef0": {
+	  "demangled_name":"",
+	  "ea":"0x401ef0",
+	  "import":false,
+	  "name":"meth_0x401ef0",
+	  "type":"meth"
+	},
+	"0x402150": {
+	  "demangled_name":"",
+	  "ea":"0x402150",
+	  "import":false,
+	  "name":"meth_0x402150",
+	  "type":"meth"
+	},
+	"0x402960": {
+	  "demangled_name":"",
+	  "ea":"0x402960",
+	  "import":false,
+	  "name":"meth_0x402960",
+	  "type":"meth"
+	},
+	"0x402db0": {
+	  "demangled_name":"",
+	  "ea":"0x402db0",
+	  "import":false,
+	  "name":"meth_0x402db0",
+	  "type":"meth"
+	},
+	"0x404330": {
+	  "demangled_name":"",
+	  "ea":"0x404330",
+	  "import":false,
+	  "name":"meth_0x404330",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x401260",
+      "size":24,
+      "vftables": {}
+    },
+    "cls_0x401290": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4012a8" ]
+	}
+      },
+      "methods": {
+	"0x401290": {
+	  "demangled_name":"",
+	  "ea":"0x401290",
+	  "import":false,
+	  "name":"ctor_0x401290",
+	  "type":"ctor"
+	}
+      },
+      "name":"cls_0x401290",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x401ad0": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x401adc", "0x401aef", "0x401b0c", "0x401b1a" ]
+	}
+      },
+      "methods": {
+	"0x401ad0": {
+	  "demangled_name":"",
+	  "ea":"0x401ad0",
+	  "import":false,
+	  "name":"meth_0x401ad0",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x401ad0",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x401eb0": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x401eba", "0x401eda", "0x40386a", "0x403872", "0x403880" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":2,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x401ec3", "0x401ee5" ]
+	}
+      },
+      "methods": {
+	"0x401eb0": {
+	  "demangled_name":"",
+	  "ea":"0x401eb0",
+	  "import":false,
+	  "name":"ctor_0x401eb0",
+	  "type":"ctor"
+	},
+	"0x401ed0": {
+	  "demangled_name":"",
+	  "ea":"0x401ed0",
+	  "import":false,
+	  "name":"ctor_0x401ed0",
+	  "type":"ctor"
+	},
+	"0x4028f0": {
+	  "demangled_name":"",
+	  "ea":"0x4028f0",
+	  "import":false,
+	  "name":"meth_0x4028f0",
+	  "type":"meth"
+	},
+	"0x403860": {
+	  "demangled_name":"",
+	  "ea":"0x403860",
+	  "import":false,
+	  "name":"meth_0x403860",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x401eb0",
+      "size":6,
+      "vftables": {}
+    },
+    "cls_0x401f00": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"cls_0x401260_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":24,
+	  "struc":"cls_0x401260",
+	  "type":"struc",
+	  "usages": [
+	    "0x401c1f",
+	    "0x401c63",
+	    "0x403511",
+	    "0x40392c",
+	    "0x405037",
+	    "0x405058",
+	    "0x405080",
+	    "0x4050e2",
+	    "0x4058f1"
+	  ]
+	},
+	"0x10": {
+	  "base":true,
+	  "name":"mbr_0x10",
+	  "offset":"0x10",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x40171c",
+	    "0x40173f",
+	    "0x401829",
+	    "0x4018b2",
+	    "0x401969",
+	    "0x4019d6",
+	    "0x401b92",
+	    "0x401bfb",
+	    "0x403947",
+	    "0x403dac",
+	    "0x404fd5",
+	    "0x405026",
+	    "0x40506c",
+	    "0x4050e7"
+	  ]
+	},
+	"0x14": {
+	  "base":true,
+	  "name":"mbr_0x14",
+	  "offset":"0x14",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x401725",
+	    "0x40182f",
+	    "0x4018bb",
+	    "0x40196f",
+	    "0x4019df",
+	    "0x401bba",
+	    "0x401c04",
+	    "0x4030e3",
+	    "0x4033fc",
+	    "0x403925",
+	    "0x403951",
+	    "0x404fe5",
+	    "0x405020",
+	    "0x405072",
+	    "0x4050e4",
+	    "0x4058e2"
+	  ]
+	}
+      },
+      "methods": {
+	"0x401710": {
+	  "demangled_name":"",
+	  "ea":"0x401710",
+	  "import":false,
+	  "name":"meth_0x401710",
+	  "type":"meth"
+	},
+	"0x4017d0": {
+	  "demangled_name":"",
+	  "ea":"0x4017d0",
+	  "import":false,
+	  "name":"meth_0x4017d0",
+	  "type":"meth"
+	},
+	"0x401910": {
+	  "demangled_name":"",
+	  "ea":"0x401910",
+	  "import":false,
+	  "name":"meth_0x401910",
+	  "type":"meth"
+	},
+	"0x401b80": {
+	  "demangled_name":"",
+	  "ea":"0x401b80",
+	  "import":false,
+	  "name":"meth_0x401b80",
+	  "type":"meth"
+	},
+	"0x401f00": {
+	  "demangled_name":"",
+	  "ea":"0x401f00",
+	  "import":false,
+	  "name":"ctor_0x401f00",
+	  "type":"ctor"
+	},
+	"0x401f60": {
+	  "demangled_name":"",
+	  "ea":"0x401f60",
+	  "import":false,
+	  "name":"ctor_0x401f60",
+	  "type":"ctor"
+	},
+	"0x401ff0": {
+	  "demangled_name":"",
+	  "ea":"0x401ff0",
+	  "import":false,
+	  "name":"ctor_0x401ff0",
+	  "type":"ctor"
+	},
+	"0x402070": {
+	  "demangled_name":"",
+	  "ea":"0x402070",
+	  "import":false,
+	  "name":"ctor_0x402070",
+	  "type":"ctor"
+	},
+	"0x402190": {
+	  "demangled_name":"",
+	  "ea":"0x402190",
+	  "import":false,
+	  "name":"ctor_0x402190",
+	  "type":"ctor"
+	},
+	"0x4028b0": {
+	  "demangled_name":"",
+	  "ea":"0x4028b0",
+	  "import":false,
+	  "name":"meth_0x4028b0",
+	  "type":"meth"
+	},
+	"0x4028d0": {
+	  "demangled_name":"",
+	  "ea":"0x4028d0",
+	  "import":false,
+	  "name":"meth_0x4028d0",
+	  "type":"meth"
+	},
+	"0x402910": {
+	  "demangled_name":"",
+	  "ea":"0x402910",
+	  "import":false,
+	  "name":"meth_0x402910",
+	  "type":"meth"
+	},
+	"0x402990": {
+	  "demangled_name":"",
+	  "ea":"0x402990",
+	  "import":false,
+	  "name":"meth_0x402990",
+	  "type":"meth"
+	},
+	"0x402e50": {
+	  "demangled_name":"",
+	  "ea":"0x402e50",
+	  "import":false,
+	  "name":"meth_0x402e50",
+	  "type":"meth"
+	},
+	"0x403060": {
+	  "demangled_name":"",
+	  "ea":"0x403060",
+	  "import":false,
+	  "name":"meth_0x403060",
+	  "type":"meth"
+	},
+	"0x4030d0": {
+	  "demangled_name":"",
+	  "ea":"0x4030d0",
+	  "import":false,
+	  "name":"meth_0x4030d0",
+	  "type":"meth"
+	},
+	"0x4031b0": {
+	  "demangled_name":"",
+	  "ea":"0x4031b0",
+	  "import":false,
+	  "name":"meth_0x4031b0",
+	  "type":"meth"
+	},
+	"0x4033f0": {
+	  "demangled_name":"",
+	  "ea":"0x4033f0",
+	  "import":false,
+	  "name":"meth_0x4033f0",
+	  "type":"meth"
+	},
+	"0x4034f0": {
+	  "demangled_name":"",
+	  "ea":"0x4034f0",
+	  "import":false,
+	  "name":"meth_0x4034f0",
+	  "type":"meth"
+	},
+	"0x403680": {
+	  "demangled_name":"",
+	  "ea":"0x403680",
+	  "import":false,
+	  "name":"meth_0x403680",
+	  "type":"meth"
+	},
+	"0x4036a0": {
+	  "demangled_name":"",
+	  "ea":"0x4036a0",
+	  "import":false,
+	  "name":"meth_0x4036a0",
+	  "type":"meth"
+	},
+	"0x4036c0": {
+	  "demangled_name":"",
+	  "ea":"0x4036c0",
+	  "import":false,
+	  "name":"meth_0x4036c0",
+	  "type":"meth"
+	},
+	"0x4038f0": {
+	  "demangled_name":"",
+	  "ea":"0x4038f0",
+	  "import":false,
+	  "name":"meth_0x4038f0",
+	  "type":"meth"
+	},
+	"0x4039c0": {
+	  "demangled_name":"",
+	  "ea":"0x4039c0",
+	  "import":false,
+	  "name":"meth_0x4039c0",
+	  "type":"meth"
+	},
+	"0x4039f0": {
+	  "demangled_name":"",
+	  "ea":"0x4039f0",
+	  "import":false,
+	  "name":"meth_0x4039f0",
+	  "type":"meth"
+	},
+	"0x403a60": {
+	  "demangled_name":"",
+	  "ea":"0x403a60",
+	  "import":false,
+	  "name":"meth_0x403a60",
+	  "type":"meth"
+	},
+	"0x403da0": {
+	  "demangled_name":"",
+	  "ea":"0x403da0",
+	  "import":false,
+	  "name":"meth_0x403da0",
+	  "type":"meth"
+	},
+	"0x404080": {
+	  "demangled_name":"",
+	  "ea":"0x404080",
+	  "import":false,
+	  "name":"meth_0x404080",
+	  "type":"meth"
+	},
+	"0x404fc0": {
+	  "demangled_name":"",
+	  "ea":"0x404fc0",
+	  "import":false,
+	  "name":"ctor_0x404fc0",
+	  "type":"ctor"
+	},
+	"0x4058d0": {
+	  "demangled_name":"",
+	  "ea":"0x4058d0",
+	  "import":false,
+	  "name":"meth_0x4058d0",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x401f00",
+      "size":24,
+      "vftables": {}
+    },
+    "cls_0x4021a0": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"cls_0x4045f0_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":4,
+	  "struc":"cls_0x4045f0",
+	  "type":"struc",
+	  "usages": []
+	},
+	"0x14": {
+	  "base":false,
+	  "name":"cls_0x401eb0_0x14",
+	  "offset":"0x14",
+	  "parent":false,
+	  "size":6,
+	  "struc":"cls_0x401eb0",
+	  "type":"struc",
+	  "usages": []
+	},
+	"0x1c": {
+	  "base":false,
+	  "name":"cls_0x401eb0_0x1c",
+	  "offset":"0x1c",
+	  "parent":false,
+	  "size":6,
+	  "struc":"cls_0x401eb0",
+	  "type":"struc",
+	  "usages": []
+	},
+	"0x24": {
+	  "base":false,
+	  "name":"cls_0x401eb0_0x24",
+	  "offset":"0x24",
+	  "parent":false,
+	  "size":6,
+	  "struc":"cls_0x401eb0",
+	  "type":"struc",
+	  "usages": []
+	},
+	"0x2c": {
+	  "base":false,
+	  "name":"cls_0x401eb0_0x2c",
+	  "offset":"0x2c",
+	  "parent":false,
+	  "size":6,
+	  "struc":"cls_0x401eb0",
+	  "type":"struc",
+	  "usages": []
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"cls_0x401eb0_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":6,
+	  "struc":"cls_0x401eb0",
+	  "type":"struc",
+	  "usages": []
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"cls_0x401eb0_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":6,
+	  "struc":"cls_0x401eb0",
+	  "type":"struc",
+	  "usages": []
+	}
+      },
+      "methods": {
+	"0x4021a0": {
+	  "demangled_name":"",
+	  "ea":"0x4021a0",
+	  "import":false,
+	  "name":"ctor_0x4021a0",
+	  "type":"ctor"
+	},
+	"0x4029c0": {
+	  "demangled_name":"",
+	  "ea":"0x4029c0",
+	  "import":false,
+	  "name":"meth_0x4029c0",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x4021a0",
+      "size":50,
+      "vftables": {}
+    },
+    "cls_0x402270": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40227f", "0x402284" ]
+	}
+      },
+      "methods": {
+	"0x402270": {
+	  "demangled_name":"",
+	  "ea":"0x402270",
+	  "import":false,
+	  "name":"ctor_0x402270",
+	  "type":"ctor"
+	}
+      },
+      "name":"cls_0x402270",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x402510": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40251d" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x402525" ]
+	}
+      },
+      "methods": {
+	"0x402510": {
+	  "demangled_name":"",
+	  "ea":"0x402510",
+	  "import":false,
+	  "name":"ctor_0x402510",
+	  "type":"ctor"
+	}
+      },
+      "name":"cls_0x402510",
+      "size":8,
+      "vftables": {}
+    },
+    "cls_0x402690": {
+      "demangled_name":"",
+      "members": {
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4026a0", "0x4026a6", "0x4026ae" ]
+	}
+      },
+      "methods": {
+	"0x402690": {
+	  "demangled_name":"",
+	  "ea":"0x402690",
+	  "import":false,
+	  "name":"ctor_0x402690",
+	  "type":"ctor"
+	}
+      },
+      "name":"cls_0x402690",
+      "size":8,
+      "vftables": {}
+    },
+    "cls_0x402720": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"cls_0x402270_0x0",
+	  "offset":"0x0",
+	  "parent":true,
+	  "size":4,
+	  "struc":"cls_0x402270",
+	  "type":"struc",
+	  "usages": ["0x402a8b", "0x402c20" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x402775", "0x4027a8", "0x4027cb", "0x402d4a" ]
+	}
+      },
+      "methods": {
+	"0x402720": {
+	  "demangled_name":"",
+	  "ea":"0x402720",
+	  "import":false,
+	  "name":"ctor_0x402720",
+	  "type":"ctor"
+	},
+	"0x402a60": {
+	  "demangled_name":"",
+	  "ea":"0x402a60",
+	  "import":false,
+	  "name":"meth_0x402a60",
+	  "type":"meth"
+	},
+	"0x402bf0": {
+	  "demangled_name":"",
+	  "ea":"0x402bf0",
+	  "import":false,
+	  "name":"meth_0x402bf0",
+	  "type":"meth"
+	},
+	"0x402d40": {
+	  "demangled_name":"",
+	  "ea":"0x402d40",
+	  "import":false,
+	  "name":"meth_0x402d40",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x402720",
+      "size":5,
+      "vftables": {}
+    },
+    "cls_0x402ba0": {
+      "demangled_name":"",
+      "members": {
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x402bac", "0x402bb5", "0x402bbd" ]
+	}
+      },
+      "methods": {
+	"0x402ba0": {
+	  "demangled_name":"",
+	  "ea":"0x402ba0",
+	  "import":false,
+	  "name":"ctor_0x402ba0",
+	  "type":"ctor"
+	}
+      },
+      "name":"cls_0x402ba0",
+      "size":8,
+      "vftables": {}
+    },
+    "cls_0x403090": {
+      "demangled_name":"",
+      "members": {
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40309c", "0x4030a5" ]
+	}
+      },
+      "methods": {
+	"0x403090": {
+	  "demangled_name":"",
+	  "ea":"0x403090",
+	  "import":false,
+	  "name":"meth_0x403090",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x403090",
+      "size":8,
+      "vftables": {}
+    },
+    "cls_0x403310": {
+      "demangled_name":"",
+      "members": {
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40331c", "0x40332a", "0x403351" ]
+	}
+      },
+      "methods": {
+	"0x403310": {
+	  "demangled_name":"",
+	  "ea":"0x403310",
+	  "import":false,
+	  "name":"meth_0x403310",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x403310",
+      "size":8,
+      "vftables": {}
+    },
+    "cls_0x403600": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4043e5" ]
+	},
+	"0x20": {
+	  "base":false,
+	  "name":"mbr_0x20",
+	  "offset":"0x20",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40360c", "0x40364f", "0x40365a", "0x403665" ]
+	},
+	"0x30": {
+	  "base":false,
+	  "name":"mbr_0x30",
+	  "offset":"0x30",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x403617", "0x40363c", "0x403647" ]
+	}
+      },
+      "methods": {
+	"0x403600": {
+	  "demangled_name":"",
+	  "ea":"0x403600",
+	  "import":false,
+	  "name":"meth_0x403600",
+	  "type":"meth"
+	},
+	"0x403630": {
+	  "demangled_name":"",
+	  "ea":"0x403630",
+	  "import":false,
+	  "name":"meth_0x403630",
+	  "type":"meth"
+	},
+	"0x404390": {
+	  "demangled_name":"",
+	  "ea":"0x404390",
+	  "import":false,
+	  "name":"meth_0x404390",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x403600",
+      "size":52,
+      "vftables": {}
+    },
+    "cls_0x403a30": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x403a3c", "0x403a44" ]
+	}
+      },
+      "methods": {
+	"0x403a30": {
+	  "demangled_name":"",
+	  "ea":"0x403a30",
+	  "import":false,
+	  "name":"meth_0x403a30",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x403a30",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x403a80": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40446a" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x403a8a" ]
+	}
+      },
+      "methods": {
+	"0x403a80": {
+	  "demangled_name":"",
+	  "ea":"0x403a80",
+	  "import":false,
+	  "name":"meth_0x403a80",
+	  "type":"meth"
+	},
+	"0x404150": {
+	  "demangled_name":"",
+	  "ea":"0x404150",
+	  "import":false,
+	  "name":"meth_0x404150",
+	  "type":"meth"
+	},
+	"0x404460": {
+	  "demangled_name":"",
+	  "ea":"0x404460",
+	  "import":false,
+	  "name":"meth_0x404460",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x403a80",
+      "size":8,
+      "vftables": {}
+    },
+    "cls_0x403aa0": {
+      "demangled_name":"",
+      "members": {
+	"0x10": {
+	  "base":false,
+	  "name":"mbr_0x10",
+	  "offset":"0x10",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x403b01" ]
+	},
+	"0x14": {
+	  "base":false,
+	  "name":"mbr_0x14",
+	  "offset":"0x14",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x403eca" ]
+	},
+	"0x20": {
+	  "base":false,
+	  "name":"mbr_0x20",
+	  "offset":"0x20",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40455c", "0x404571", "0x40459a" ]
+	},
+	"0x24": {
+	  "base":false,
+	  "name":"mbr_0x24",
+	  "offset":"0x24",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40455f", "0x404574", "0x40459d" ]
+	},
+	"0x38": {
+	  "base":false,
+	  "name":"mbr_0x38",
+	  "offset":"0x38",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x403aac", "0x4042fa" ]
+	},
+	"0x3c": {
+	  "base":false,
+	  "name":"mbr_0x3c",
+	  "offset":"0x3c",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40443a" ]
+	},
+	"0x40": {
+	  "base":false,
+	  "name":"mbr_0x40",
+	  "offset":"0x40",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x403eaa" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x403af8", "0x40431a" ]
+	}
+      },
+      "methods": {
+	"0x403aa0": {
+	  "demangled_name":"",
+	  "ea":"0x403aa0",
+	  "import":false,
+	  "name":"meth_0x403aa0",
+	  "type":"meth"
+	},
+	"0x403ae0": {
+	  "demangled_name":"",
+	  "ea":"0x403ae0",
+	  "import":false,
+	  "name":"meth_0x403ae0",
+	  "type":"meth"
+	},
+	"0x403ea0": {
+	  "demangled_name":"",
+	  "ea":"0x403ea0",
+	  "import":false,
+	  "name":"meth_0x403ea0",
+	  "type":"meth"
+	},
+	"0x403ec0": {
+	  "demangled_name":"",
+	  "ea":"0x403ec0",
+	  "import":false,
+	  "name":"meth_0x403ec0",
+	  "type":"meth"
+	},
+	"0x404000": {
+	  "demangled_name":"",
+	  "ea":"0x404000",
+	  "import":false,
+	  "name":"meth_0x404000",
+	  "type":"meth"
+	},
+	"0x4042f0": {
+	  "demangled_name":"",
+	  "ea":"0x4042f0",
+	  "import":false,
+	  "name":"meth_0x4042f0",
+	  "type":"meth"
+	},
+	"0x404310": {
+	  "demangled_name":"",
+	  "ea":"0x404310",
+	  "import":false,
+	  "name":"meth_0x404310",
+	  "type":"meth"
+	},
+	"0x404360": {
+	  "demangled_name":"",
+	  "ea":"0x404360",
+	  "import":false,
+	  "name":"meth_0x404360",
+	  "type":"meth"
+	},
+	"0x404430": {
+	  "demangled_name":"",
+	  "ea":"0x404430",
+	  "import":false,
+	  "name":"meth_0x404430",
+	  "type":"meth"
+	},
+	"0x404550": {
+	  "demangled_name":"",
+	  "ea":"0x404550",
+	  "import":false,
+	  "name":"meth_0x404550",
+	  "type":"meth"
+	},
+	"0x404590": {
+	  "demangled_name":"",
+	  "ea":"0x404590",
+	  "import":false,
+	  "name":"meth_0x404590",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x403aa0",
+      "size":65,
+      "vftables": {}
+    },
+    "cls_0x403e60": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x403e78" ]
+	}
+      },
+      "methods": {
+	"0x403e60": {
+	  "demangled_name":"",
+	  "ea":"0x403e60",
+	  "import":false,
+	  "name":"meth_0x403e60",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x403e60",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x403fe0": {
+      "demangled_name":"",
+      "members": {
+	"0x30": {
+	  "base":false,
+	  "name":"mbr_0x30",
+	  "offset":"0x30",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x403fea" ]
+	}
+      },
+      "methods": {
+	"0x403fe0": {
+	  "demangled_name":"",
+	  "ea":"0x403fe0",
+	  "import":false,
+	  "name":"meth_0x403fe0",
+	  "type":"meth"
+	},
+	"0x4044a0": {
+	  "demangled_name":"",
+	  "ea":"0x4044a0",
+	  "import":false,
+	  "name":"meth_0x4044a0",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x403fe0",
+      "size":52,
+      "vftables": {}
+    },
+    "cls_0x4041b0": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4041ba" ]
+	}
+      },
+      "methods": {
+	"0x4041b0": {
+	  "demangled_name":"",
+	  "ea":"0x4041b0",
+	  "import":false,
+	  "name":"meth_0x4041b0",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x4041b0",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x404400": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x404416" ]
+	}
+      },
+      "methods": {
+	"0x404400": {
+	  "demangled_name":"",
+	  "ea":"0x404400",
+	  "import":false,
+	  "name":"meth_0x404400",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x404400",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x404530": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40453f" ]
+	}
+      },
+      "methods": {
+	"0x404530": {
+	  "demangled_name":"",
+	  "ea":"0x404530",
+	  "import":false,
+	  "name":"meth_0x404530",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x404530",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x4045b0": {
+      "demangled_name":"",
+      "members": {},
+      "methods": {
+	"0x4045b0": {
+	  "demangled_name":"",
+	  "ea":"0x4045b0",
+	  "import":false,
+	  "name":"ctor_0x4045b0",
+	  "type":"ctor"
+	}
+      },
+      "name":"cls_0x4045b0",
+      "size":0,
+      "vftables": {}
+    },
+    "cls_0x4045f0": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4045f9", "0x404660" ]
+	}
+      },
+      "methods": {
+	"0x4045f0": {
+	  "demangled_name":"",
+	  "ea":"0x4045f0",
+	  "import":false,
+	  "name":"ctor_0x4045f0",
+	  "type":"ctor"
+	},
+	"0x404660": {
+	  "demangled_name":"",
+	  "ea":"0x404660",
+	  "import":false,
+	  "name":"meth_0x404660",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x4045f0",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x4047d0": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4047d3" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x4047d0" ]
+	}
+      },
+      "methods": {
+	"0x4047d0": {
+	  "demangled_name":"",
+	  "ea":"0x4047d0",
+	  "import":false,
+	  "name":"dtor_0x4047d0",
+	  "type":"dtor"
+	}
+      },
+      "name":"cls_0x4047d0",
+      "size":8,
+      "vftables": {}
+    },
+    "cls_0x405ab0": {
+      "demangled_name":"",
+      "members": {
+	"0x10": {
+	  "base":false,
+	  "name":"mbr_0x10",
+	  "offset":"0x10",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405aea", "0x405bea" ]
+	},
+	"0x14": {
+	  "base":false,
+	  "name":"mbr_0x14",
+	  "offset":"0x14",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405af1" ]
+	},
+	"0x18": {
+	  "base":false,
+	  "name":"mbr_0x18",
+	  "offset":"0x18",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405af8" ]
+	},
+	"0x1c": {
+	  "base":false,
+	  "name":"mbr_0x1c",
+	  "offset":"0x1c",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405aff" ]
+	},
+	"0x20": {
+	  "base":false,
+	  "name":"mbr_0x20",
+	  "offset":"0x20",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405b06" ]
+	},
+	"0x24": {
+	  "base":false,
+	  "name":"mbr_0x24",
+	  "offset":"0x24",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405b0d" ]
+	},
+	"0x28": {
+	  "base":false,
+	  "name":"mbr_0x28",
+	  "offset":"0x28",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405b14" ]
+	},
+	"0x2c": {
+	  "base":false,
+	  "name":"mbr_0x2c",
+	  "offset":"0x2c",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405b1b" ]
+	},
+	"0x30": {
+	  "base":false,
+	  "name":"mbr_0x30",
+	  "offset":"0x30",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405adc", "0x405b52" ]
+	},
+	"0x38": {
+	  "base":false,
+	  "name":"mbr_0x38",
+	  "offset":"0x38",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405b55", "0x405bde" ]
+	},
+	"0x3c": {
+	  "base":false,
+	  "name":"mbr_0x3c",
+	  "offset":"0x3c",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405b58" ]
+	},
+	"0x40": {
+	  "base":false,
+	  "name":"mbr_0x40",
+	  "offset":"0x40",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405be2" ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405ae3" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x405b22", "0x405be7", "0x405bf3" ]
+	}
+      },
+      "methods": {
+	"0x405ab0": {
+	  "demangled_name":"",
+	  "ea":"0x405ab0",
+	  "import":false,
+	  "name":"meth_0x405ab0",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x405ab0",
+      "size":65,
+      "vftables": {}
+    },
+    "cls_0x406b00": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x406b00" ]
+	}
+      },
+      "methods": {
+	"0x406b00": {
+	  "demangled_name":"",
+	  "ea":"0x406b00",
+	  "import":false,
+	  "name":"meth_0x406b00",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x406b00",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x40a3bb": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a3dd", "0x40a411", "0x40a5f2" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a3df", "0x40a40b", "0x40a5ef" ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a3d2", "0x40a40e", "0x40a5ad" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a3e2", "0x40a405", "0x40a600" ]
+	}
+      },
+      "methods": {
+	"0x40a3bb": {
+	  "demangled_name":"",
+	  "ea":"0x40a3bb",
+	  "import":false,
+	  "name":"ctor_0x40a3bb",
+	  "type":"ctor"
+	},
+	"0x40a405": {
+	  "demangled_name":"",
+	  "ea":"0x40a405",
+	  "import":false,
+	  "name":"meth_0x40a405",
+	  "type":"meth"
+	},
+	"0x40a59d": {
+	  "demangled_name":"",
+	  "ea":"0x40a59d",
+	  "import":false,
+	  "name":"meth_0x40a59d",
+	  "type":"meth"
+	},
+	"0x40a5e1": {
+	  "demangled_name":"",
+	  "ea":"0x40a5e1",
+	  "import":false,
+	  "name":"meth_0x40a5e1",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x40a3bb",
+      "size":13,
+      "vftables": {}
+    },
+    "cls_0x40a435": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a44d", "0x40a461" ]
+	},
+	"0x10": {
+	  "base":false,
+	  "name":"mbr_0x10",
+	  "offset":"0x10",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a47b" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a469" ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a46f" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a475" ]
+	}
+      },
+      "methods": {
+	"0x40a435": {
+	  "demangled_name":"",
+	  "ea":"0x40a435",
+	  "import":false,
+	  "name":"meth_0x40a435",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x40a435",
+      "size":20,
+      "vftables": {}
+    },
+    "cls_0x40a49f": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x40a4ac",
+	    "0x40a4bf",
+	    "0x40a520",
+	    "0x40a532",
+	    "0x40a587",
+	    "0x40a590"
+	  ]
+	},
+	"0x10": {
+	  "base":false,
+	  "name":"mbr_0x10",
+	  "offset":"0x10",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a4b5", "0x40a4d8" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a4a4", "0x40a524", "0x40a53b" ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a4c8" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40a4ba" ]
+	}
+      },
+      "methods": {
+	"0x40a49f": {
+	  "demangled_name":"",
+	  "ea":"0x40a49f",
+	  "import":false,
+	  "name":"meth_0x40a49f",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x40a49f",
+      "size":20,
+      "vftables": {}
+    },
+    "cls_0x40c497": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40c4a6", "0x40c4eb", "0x40c678", "0x40c68b", "0x40c699" ]
+	},
+	"0x10": {
+	  "base":false,
+	  "name":"mbr_0x10",
+	  "offset":"0x10",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40c4d3" ]
+	},
+	"0x14": {
+	  "base":false,
+	  "name":"mbr_0x14",
+	  "offset":"0x14",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40c4a3", "0x40c4cf", "0x40c4e5" ]
+	},
+	"0x18": {
+	  "base":false,
+	  "name":"mbr_0x18",
+	  "offset":"0x18",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40c4fa" ]
+	},
+	"0x1c": {
+	  "base":false,
+	  "name":"mbr_0x1c",
+	  "offset":"0x1c",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40c4ab", "0x40c4f4" ]
+	},
+	"0x20": {
+	  "base":false,
+	  "name":"mbr_0x20",
+	  "offset":"0x20",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40c50b" ]
+	},
+	"0x24": {
+	  "base":false,
+	  "name":"mbr_0x24",
+	  "offset":"0x24",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40c4ae", "0x40c505" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40c65f", "0x40c664", "0x4110a7", "0x4110ba" ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40c4a8", "0x40c650", "0x40c65b", "0x41109b", "0x4110ac" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40c4d6" ]
+	}
+      },
+      "methods": {
+	"0x40c497": {
+	  "demangled_name":"",
+	  "ea":"0x40c497",
+	  "import":false,
+	  "name":"ctor_0x40c497",
+	  "type":"ctor"
+	},
+	"0x40c4df": {
+	  "demangled_name":"",
+	  "ea":"0x40c4df",
+	  "import":false,
+	  "name":"meth_0x40c4df",
+	  "type":"meth"
+	},
+	"0x40c640": {
+	  "demangled_name":"",
+	  "ea":"0x40c640",
+	  "import":false,
+	  "name":"meth_0x40c640",
+	  "type":"meth"
+	},
+	"0x40c686": {
+	  "demangled_name":"",
+	  "ea":"0x40c686",
+	  "import":false,
+	  "name":"meth_0x40c686",
+	  "type":"meth"
+	},
+	"0x411096": {
+	  "demangled_name":"",
+	  "ea":"0x411096",
+	  "import":false,
+	  "name":"meth_0x411096",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x40c497",
+      "size":37,
+      "vftables": {}
+    },
+    "cls_0x40dd2a": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40dd69", "0x40dd80", "0x40dd87" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40dd3a", "0x40dd5c", "0x40dd73" ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40dd5e", "0x40dd6b", "0x40dd78" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40dd36", "0x40dda0" ]
+	}
+      },
+      "methods": {
+	"0x40dd2a": {
+	  "demangled_name":"",
+	  "ea":"0x40dd2a",
+	  "import":false,
+	  "name":"ctor_0x40dd2a",
+	  "type":"ctor"
+	}
+      },
+      "name":"cls_0x40dd2a",
+      "size":13,
+      "vftables": {}
+    },
+    "cls_0x40ddac": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40ddb1", "0x40ddb6", "0x40ddda" ]
+	}
+      },
+      "methods": {
+	"0x40ddac": {
+	  "demangled_name":"",
+	  "ea":"0x40ddac",
+	  "import":false,
+	  "name":"meth_0x40ddac",
+	  "type":"meth"
+	},
+	"0x40ddda": {
+	  "demangled_name":"",
+	  "ea":"0x40ddda",
+	  "import":false,
+	  "name":"meth_0x40ddda",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x40ddac",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x40e0f3": {
+      "demangled_name":"",
+      "members": {
+	"0x14": {
+	  "base":false,
+	  "name":"mbr_0x14",
+	  "offset":"0x14",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x40e0f8",
+	    "0x40e107",
+	    "0x40e15e",
+	    "0x40e164",
+	    "0x419061",
+	    "0x419067"
+	  ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40e0fe", "0x40e14a", "0x41904b" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40e15a", "0x40e16a", "0x41905d", "0x41906d" ]
+	}
+      },
+      "methods": {
+	"0x40e0f3": {
+	  "demangled_name":"",
+	  "ea":"0x40e0f3",
+	  "import":false,
+	  "name":"meth_0x40e0f3",
+	  "type":"meth"
+	},
+	"0x40e134": {
+	  "demangled_name":"",
+	  "ea":"0x40e134",
+	  "import":false,
+	  "name":"meth_0x40e134",
+	  "type":"meth"
+	},
+	"0x41903a": {
+	  "demangled_name":"",
+	  "ea":"0x41903a",
+	  "import":false,
+	  "name":"meth_0x41903a",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x40e0f3",
+      "size":21,
+      "vftables": {}
+    },
+    "cls_0x40e10d": {
+      "demangled_name":"",
+      "members": {
+	"0x14": {
+	  "base":false,
+	  "name":"mbr_0x14",
+	  "offset":"0x14",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40e112", "0x40e118", "0x40e12c" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40e128" ]
+	}
+      },
+      "methods": {
+	"0x40e10d": {
+	  "demangled_name":"",
+	  "ea":"0x40e10d",
+	  "import":false,
+	  "name":"meth_0x40e10d",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x40e10d",
+      "size":21,
+      "vftables": {}
+    },
+    "cls_0x40e194": {
+      "demangled_name":"",
+      "members": {
+	"0x10": {
+	  "base":false,
+	  "name":"mbr_0x10",
+	  "offset":"0x10",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40e1a4" ]
+	},
+	"0x14": {
+	  "base":false,
+	  "name":"mbr_0x14",
+	  "offset":"0x14",
+	  "parent":false,
+	  "size":1,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40e196", "0x40e19b" ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40e19e" ]
+	},
+	"0xc": {
+	  "base":false,
+	  "name":"mbr_0xc",
+	  "offset":"0xc",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40e1a1" ]
+	}
+      },
+      "methods": {
+	"0x40e194": {
+	  "demangled_name":"",
+	  "ea":"0x40e194",
+	  "import":false,
+	  "name":"meth_0x40e194",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x40e194",
+      "size":21,
+      "vftables": {}
+    },
+    "cls_0x40f1ab": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40f1bb", "0x40f28c", "0x40f29b", "0x40f2a8" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40f278" ]
+	}
+      },
+      "methods": {
+	"0x40f1ab": {
+	  "demangled_name":"",
+	  "ea":"0x40f1ab",
+	  "import":false,
+	  "name":"meth_0x40f1ab",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x40f1ab",
+      "size":8,
+      "vftables": {}
+    },
+    "cls_0x40f2be": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40f2cd", "0x40f335", "0x40f37d", "0x40f383", "0x40f38a" ]
+	}
+      },
+      "methods": {
+	"0x40f2be": {
+	  "demangled_name":"",
+	  "ea":"0x40f2be",
+	  "import":false,
+	  "name":"meth_0x40f2be",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x40f2be",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x40f515": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x40f53b" ]
+	}
+      },
+      "methods": {
+	"0x40f515": {
+	  "demangled_name":"",
+	  "ea":"0x40f515",
+	  "import":false,
+	  "name":"meth_0x40f515",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x40f515",
+      "size":4,
+      "vftables": {}
+    },
+    "cls_0x419015": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x41901b", "0x41902f" ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x41902a" ]
+	}
+      },
+      "methods": {
+	"0x419015": {
+	  "demangled_name":"",
+	  "ea":"0x419015",
+	  "import":false,
+	  "name":"meth_0x419015",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x419015",
+      "size":8,
+      "vftables": {}
+    },
+    "cls_0x419076": {
+      "demangled_name":"",
+      "members": {
+	"0x0": {
+	  "base":false,
+	  "name":"mbr_0x0",
+	  "offset":"0x0",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": [
+	    "0x419088",
+	    "0x419098",
+	    "0x41909f",
+	    "0x4190b3",
+	    "0x4190cc",
+	    "0x4190df"
+	  ]
+	},
+	"0x4": {
+	  "base":false,
+	  "name":"mbr_0x4",
+	  "offset":"0x4",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x41907f", "0x4190a8", "0x4190e7" ]
+	},
+	"0x8": {
+	  "base":false,
+	  "name":"mbr_0x8",
+	  "offset":"0x8",
+	  "parent":false,
+	  "size":4,
+	  "struc":"",
+	  "type":"",
+	  "usages": ["0x41907c", "0x4190ae", "0x4190ea" ]
+	}
+      },
+      "methods": {
+	"0x419076": {
+	  "demangled_name":"",
+	  "ea":"0x419076",
+	  "import":false,
+	  "name":"meth_0x419076",
+	  "type":"meth"
+	}
+      },
+      "name":"cls_0x419076",
+      "size":12,
+      "vftables": {}
+    }
+  },
+  "vcalls": {
+    "0x4056a9": {"targets": ["0x405c60", "0x405df0" ]},
+    "0x40615b": {"targets": ["0x405c60", "0x405df0" ]},
+    "0x406453": {"targets": ["0x406480", "0x4064e0" ]},
+    "0x4064ad": {"targets": ["0x406190", "0x406440" ]},
+    "0x4064cc": {"targets": ["0x405df0", "0x405e00" ]}
+  },
+  "version":"2.2.0"
+}

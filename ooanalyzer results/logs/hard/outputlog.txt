@@ -1,0 +1,169 @@
+[32mOPTI[INFO ]:[m Analyzing executable: /dir/bin/testfile_medium.exe
+[32mOPTI[INFO ]:[m OOAnalyzer version 1.0.
+[32mPRT2[MARCH]:[m cfg:  70% [##########-----] 113057 bytes 9827 blks 180 funcs[K[32mPRT2[MARCH]:[m cfg:  91% [##############-] 147221 bytes 12996 blks 1106 funcs[K[32mOPTI[INFO ]:[m ROSE stock partitioning took 4.57042 seconds.
+[32mOPTI[INFO ]:[m Partitioned 148324 bytes, 52740 instructions, 13194 basic blocks, 9 data blocks and 1117 functions.
+[32mPRT2[MARCH]:[m cfg:  99% [###############] 159829 bytes 13838 blks 1284 funcs[K[32mOPTI[INFO ]:[m Pharos function partitioning took 6.30457 seconds.
+[32mOPTI[INFO ]:[m Partitioned 161787 bytes, 55181 instructions, 13985 basic blocks, 667 data blocks and 1379 functions.
+[32mOPTI[INFO ]:[m Detected ABI: MSVC_32
+[33mOOAN[WARN ]:[m Successor 0x00408C83 of 408C81: jecxz     0x408c80 not found.
+[32mOPTI[MARCH]:[m Function analysis:  13% [##-------------] 170[K[32mOPTI[MARCH]:[m Function analysis:  18% [###------------] 240[K[32mOPTI[MARCH]:[m Function analysis:  24% [####-----------] 307[K[31mFSEM[ERROR]:[m Analysis of function 0x00425A90 failed: relative memory exceeded
+[32mOPTI[MARCH]:[m Function analysis:  24% [####-----------] 313[K[32mOPTI[MARCH]:[m Function analysis:  28% [####-----------] 363[K[32mOPTI[MARCH]:[m Function analysis:  32% [#####----------] 419[K[32mOPTI[MARCH]:[m Function analysis:  35% [#####----------] 452[K[32mOPTI[MARCH]:[m Function analysis:  40% [######---------] 526[K[32mOPTI[MARCH]:[m Function analysis:  43% [######---------] 564[K[32mOPTI[MARCH]:[m Function analysis:  46% [#######--------] 600[K[32mOPTI[MARCH]:[m Function analysis:  49% [#######--------] 640[K[32mOPTI[MARCH]:[m Function analysis:  52% [########-------] 673[K[32mOPTI[MARCH]:[m Function analysis:  54% [########-------] 698[K[32mOPTI[MARCH]:[m Function analysis:  58% [#########------] 762[K[32mOPTI[MARCH]:[m Function analysis:  60% [#########------] 782[K[32mOPTI[MARCH]:[m Function analysis:  61% [#########------] 795[K[32mOPTI[MARCH]:[m Function analysis:  61% [#########------] 798[K[32mOPTI[MARCH]:[m Function analysis:  62% [#########------] 806[K[31mFSEM[ERROR]:[m Analysis of function 0x004104EC failed: relative memory exceeded
+[32mOPTI[MARCH]:[m Function analysis:  62% [#########------] 808[K[32mOPTI[MARCH]:[m Function analysis:  64% [##########-----] 836[K[32mOPTI[MARCH]:[m Function analysis:  66% [##########-----] 855[K[32mOPTI[MARCH]:[m Function analysis:  67% [##########-----] 873[K[32mOPTI[MARCH]:[m Function analysis:  68% [##########-----] 881[K[32mOPTI[MARCH]:[m Function analysis:  68% [##########-----] 887[K[32mOPTI[MARCH]:[m Function analysis:  68% [##########-----] 891[K[32mOPTI[MARCH]:[m Function analysis:  69% [##########-----] 898[K[32mOPTI[MARCH]:[m Function analysis:  69% [##########-----] 906[K[32mOPTI[MARCH]:[m Function analysis:  70% [##########-----] 907[K[32mOPTI[MARCH]:[m Function analysis:  70% [##########-----] 912[K[32mOPTI[MARCH]:[m Function analysis:  71% [###########----] 925[K[32mOPTI[MARCH]:[m Function analysis:  72% [###########----] 944[K[32mOPTI[MARCH]:[m Function analysis:  73% [###########----] 955[K[32mOPTI[MARCH]:[m Function analysis:  74% [###########----] 962[K[32mOPTI[MARCH]:[m Function analysis:  74% [###########----] 963[K[32mOPTI[MARCH]:[m Function analysis:  75% [###########----] 975[K[32mOPTI[MARCH]:[m Function analysis:  75% [###########----] 984[K[32mOPTI[MARCH]:[m Function analysis:  76% [###########----] 990[K[32mOPTI[MARCH]:[m Function analysis:  78% [############---] 1018[K[32mOPTI[MARCH]:[m Function analysis:  78% [############---] 1020[K[32mOPTI[MARCH]:[m Function analysis:  79% [############---] 1032[K[32mOPTI[MARCH]:[m Function analysis:  79% [############---] 1034[K[32mOPTI[MARCH]:[m Function analysis:  80% [############---] 1041[K[32mOPTI[MARCH]:[m Function analysis:  81% [############---] 1056[K[32mOPTI[MARCH]:[m Function analysis:  82% [############---] 1070[K[32mOPTI[MARCH]:[m Function analysis:  84% [#############--] 1089[K[32mOPTI[MARCH]:[m Function analysis:  84% [#############--] 1090[K[32mOPTI[MARCH]:[m Function analysis:  85% [#############--] 1107[K[32mOPTI[MARCH]:[m Function analysis:  86% [#############--] 1119[K[32mOPTI[MARCH]:[m Function analysis:  87% [#############--] 1140[K[32mOPTI[MARCH]:[m Function analysis:  88% [#############--] 1142[K[32mOPTI[MARCH]:[m Function analysis:  88% [#############--] 1153[K[32mOPTI[MARCH]:[m Function analysis:  89% [#############--] 1162[K[32mOPTI[MARCH]:[m Function analysis:  95% [##############-] 1235[K[32mOPTI[MARCH]:[m Function analysis:  97% [###############] 1262[K[32mOPTI[MARCH]:[m Function analysis:  97% [###############] 1268[K[32mOPTI[MARCH]:[m Function analysis:  97% [###############] 1269[K[32mOPTI[MARCH]:[m Function analysis:  97% [###############] 1270[K[31mFSEM[ERROR]:[m Attempt to change function stack delta without changing confidence for function: 0x0040A810 old=+0008(Guess) new=+0004(Guess)
+[32mOPTI[MARCH]:[m Function analysis:  98% [###############] 1274[K[32mOPTI[MARCH]:[m Function analysis:  98% [###############] 1282[K[32mOPTI[MARCH]:[m Function analysis:  99% [###############] 1290[K[32mOPTI[MARCH]:[m Function analysis:  99% [###############] 1296[K[32mOPTI[MARCH]:[m done[K[31mOOAN[ERROR]:[m No new() methods were found.  Heap objects may not be detected.
+[31mOOAN[ERROR]:[m No delete() methods were found.  Object analysis may be impaired.
+[33mPLOG[WARN ]:[m RTTI Information is invalid because InheritsDirectlyFrom P = 0
+[33mPLOG[WARN ]:[m RTTI Information is invalid because InheritsDirectlyFrom P = 0
+[33mPLOG[WARN ]:[m RTTI Information is invalid because InheritsDirectlyFrom V = 0x4
+[33mPLOG[WARN ]:[m RTTI Information is invalid because InheritsDirectlyFrom V = 0x4
+[31mPLOG[ERROR]:[m RTTI was invalid.
+[32mOPTI[MARCH]:[m Prolog facts: [###------------] 228[K[32mOPTI[MARCH]:[m Prolog facts: [####-----------] 2147[K[32mOPTI[MARCH]:[m Prolog facts: [#####----------] 3217[K[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Class 0x404710 inherits from 0x404260 at offsets 0x14 and 0x1c
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Class 0x404710 inherits from 0x404260 at offsets 0x14 and 0x1c
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Class 0x404710 inherits from 0x404260 at offsets 0x14 and 0x1c
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Class 0x404710 inherits from 0x404260 at offsets 0x1c and 0x14
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Class 0x404710 inherits from 0x404260 at offsets 0x14 and 0x1c
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Class 0x404710 inherits from 0x404260 at offsets 0x14 and 0x1c
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Class 0x404710 inherits from 0x404240 at offsets 0x4 and 0x24
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Class 0x404710 inherits from 0x404240 at offsets 0xc and 0x24
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Class 0x404710 inherits from 0x404240 at offsets 0x4 and 0x24
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[32mOPTI[MARCH]:[m Prolog facts: [-#####---------] 4237[K[32mOPTI[MARCH]:[m Prolog facts: [--#####--------] 4328[K[32mOPTI[MARCH]:[m Prolog facts: [---#####-------] 4356[K[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x404470) but reasonNOTConstructor(0x404470)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x401460) but reasonNOTConstructor(0x401460)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[32mOPTI[MARCH]:[m Prolog facts: [----#####------] 4058[K[32mOPTI[MARCH]:[m Prolog facts: [-----#####-----] 3962[K[32mOPTI[MARCH]:[m Prolog facts: [------#####----] 3893[K[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x404af0) but reasonNOTConstructor(0x404af0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x404af0) but reasonNOTConstructor(0x404af0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x404af0) but reasonNOTConstructor(0x404af0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x404af0) but reasonNOTConstructor(0x404af0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x404af0) but reasonNOTConstructor(0x404af0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x404af0) but reasonNOTConstructor(0x404af0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[32mOPTI[MARCH]:[m Prolog facts: [-------#####---] 3925[K[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x4046e0) but reasonNOTConstructor(0x4046e0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x4046e0) but reasonNOTConstructor(0x4046e0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x404af0) but reasonNOTConstructor(0x404af0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x404af0) but reasonNOTConstructor(0x404af0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x404af0) but reasonNOTConstructor(0x404af0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x404af0) but reasonNOTConstructor(0x404af0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[31mOOAN[ERROR]:[m Method address 0x0040A9C0 was not a function or import.
+[32mOPTI[MARCH]:[m done[K[32mOPTI[INFO ]:[m OOAnalyzer analysis complete, found: 78 classes, 288 methods, 5 virtual calls, and 693 usage instructions.
+[32mOPTI[INFO ]:[m OOAnalyzer analysis complete.
+[32mOPTI[INFO ]:[m Analyzing executable: /dir/bin/testfile_hard.exe
+[32mOPTI[INFO ]:[m OOAnalyzer version 1.0.
+[32mPRT2[MARCH]:[m cfg:  88% [#############--] 108751 bytes 10278 blks 210 funcs[K[32mOPTI[INFO ]:[m ROSE stock partitioning took 3.30148 seconds.
+[32mOPTI[INFO ]:[m Partitioned 112294 bytes, 40811 instructions, 10558 basic blocks, 6 data blocks and 930 functions.
+[32mPRT2[MARCH]:[m cfg: 100% [###############] 123365 bytes 11275 blks 1120 funcs[K[32mOPTI[INFO ]:[m Pharos function partitioning took 4.58904 seconds.
+[32mOPTI[INFO ]:[m Partitioned 123409 bytes, 43009 instructions, 11278 basic blocks, 494 data blocks and 1147 functions.
+[32mOPTI[INFO ]:[m Detected ABI: MSVC_32
+[32mOPTI[MARCH]:[m Function analysis:  10% [#--------------] 105[K[32mOPTI[MARCH]:[m Function analysis:  12% [##-------------] 130[K[32mOPTI[MARCH]:[m Function analysis:  14% [##-------------] 155[K[32mOPTI[MARCH]:[m Function analysis:  19% [###------------] 209[K[32mOPTI[MARCH]:[m Function analysis:  24% [####-----------] 256[K[31mFSEM[ERROR]:[m Analysis of function 0x0041CA10 failed: relative memory exceeded
+[32mOPTI[MARCH]:[m Function analysis:  25% [####-----------] 263[K[32mOPTI[MARCH]:[m Function analysis:  26% [####-----------] 276[K[32mOPTI[MARCH]:[m Function analysis:  28% [####-----------] 296[K[32mOPTI[MARCH]:[m Function analysis:  33% [#####----------] 353[K[32mOPTI[MARCH]:[m Function analysis:  34% [#####----------] 362[K[32mOPTI[MARCH]:[m Function analysis:  35% [#####----------] 380[K[32mOPTI[MARCH]:[m Function analysis:  41% [######---------] 438[K[32mOPTI[MARCH]:[m Function analysis:  42% [######---------] 452[K[32mOPTI[MARCH]:[m Function analysis:  45% [#######--------] 483[K[32mOPTI[MARCH]:[m Function analysis:  46% [#######--------] 496[K[32mOPTI[MARCH]:[m Function analysis:  48% [#######--------] 510[K[32mOPTI[MARCH]:[m Function analysis:  50% [#######--------] 531[K[32mOPTI[MARCH]:[m Function analysis:  52% [########-------] 560[K[32mOPTI[MARCH]:[m Function analysis:  53% [########-------] 573[K[32mOPTI[MARCH]:[m Function analysis:  54% [########-------] 577[K[32mOPTI[MARCH]:[m Function analysis:  58% [#########------] 621[K[32mOPTI[MARCH]:[m Function analysis:  59% [#########------] 635[K[32mOPTI[MARCH]:[m Function analysis:  61% [#########------] 649[K[32mOPTI[MARCH]:[m Function analysis:  61% [#########------] 655[K[32mOPTI[MARCH]:[m Function analysis:  62% [#########------] 663[K[32mOPTI[MARCH]:[m Function analysis:  63% [##########-----] 679[K[32mOPTI[MARCH]:[m Function analysis:  64% [##########-----] 685[K[32mOPTI[MARCH]:[m Function analysis:  66% [##########-----] 708[K[32mOPTI[MARCH]:[m Function analysis:  67% [##########-----] 723[K[32mOPTI[MARCH]:[m Function analysis:  68% [##########-----] 731[K[32mOPTI[MARCH]:[m Function analysis:  70% [##########-----] 746[K[32mOPTI[MARCH]:[m Function analysis:  70% [##########-----] 749[K[32mOPTI[MARCH]:[m Function analysis:  71% [###########----] 758[K[32mOPTI[MARCH]:[m Function analysis:  72% [###########----] 775[K[32mOPTI[MARCH]:[m Function analysis:  74% [###########----] 793[K[32mOPTI[MARCH]:[m Function analysis:  75% [###########----] 799[K[32mOPTI[MARCH]:[m Function analysis:  75% [###########----] 801[K[32mOPTI[MARCH]:[m Function analysis:  76% [###########----] 815[K[32mOPTI[MARCH]:[m Function analysis:  77% [###########----] 821[K[32mOPTI[MARCH]:[m Function analysis:  77% [############---] 828[K[32mOPTI[MARCH]:[m Function analysis:  80% [############---] 856[K[32mOPTI[MARCH]:[m Function analysis:  80% [############---] 859[K[32mOPTI[MARCH]:[m Function analysis:  80% [############---] 860[K[32mOPTI[MARCH]:[m Function analysis:  81% [############---] 869[K[32mOPTI[MARCH]:[m Function analysis:  81% [############---] 871[K[32mOPTI[MARCH]:[m Function analysis:  82% [############---] 876[K[32mOPTI[MARCH]:[m Function analysis:  83% [############---] 892[K[32mOPTI[MARCH]:[m Function analysis:  84% [#############--] 900[K[32mOPTI[MARCH]:[m Function analysis:  85% [#############--] 906[K[32mOPTI[MARCH]:[m Function analysis:  86% [#############--] 919[K[32mOPTI[MARCH]:[m Function analysis:  86% [#############--] 920[K[32mOPTI[MARCH]:[m Function analysis:  87% [#############--] 932[K[32mOPTI[MARCH]:[m Function analysis:  88% [#############--] 942[K[32mOPTI[MARCH]:[m Function analysis:  88% [#############--] 947[K[32mOPTI[MARCH]:[m Function analysis:  90% [#############--] 960[K[32mOPTI[MARCH]:[m Function analysis:  90% [#############--] 963[K[32mOPTI[MARCH]:[m Function analysis:  90% [##############-] 965[K[32mOPTI[MARCH]:[m Function analysis:  91% [##############-] 972[K[32mOPTI[MARCH]:[m Function analysis:  91% [##############-] 977[K[32mOPTI[MARCH]:[m Function analysis:  96% [##############-] 1034[K[31mFSEM[ERROR]:[m Attempt to change function stack delta without changing confidence for function: 0x00404AC0 old=+0008(Guess) new=+0004(Guess)
+[32mOPTI[MARCH]:[m Function analysis:  99% [###############] 1060[K[32mOPTI[MARCH]:[m Function analysis: 100% [###############] 1070[K[32mOPTI[MARCH]:[m done[K[31mOOAN[ERROR]:[m No new() methods were found.  Heap objects may not be detected.
+[31mOOAN[ERROR]:[m No delete() methods were found.  Object analysis may be impaired.
+[33mPLOG[WARN ]:[m RTTI Information is invalid because InheritsDirectlyFrom P = 0
+[33mPLOG[WARN ]:[m RTTI Information is invalid because InheritsDirectlyFrom V = 0x4
+[31mPLOG[ERROR]:[m RTTI was invalid.
+[32mOPTI[MARCH]:[m Prolog facts: [###------------] 170[K[32mOPTI[MARCH]:[m Prolog facts: [####-----------] 2018[K[32mOPTI[MARCH]:[m Prolog facts: [#####----------] 2167[K[32mOPTI[MARCH]:[m Prolog facts: [-#####---------] 2907[K[32mOPTI[MARCH]:[m Prolog facts: [--#####--------] 2784[K[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about merging classes: Method1=0x404450 Method2=0x405bb0
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about merging classes: Method1=0x404450 Method2=0x405bb0
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x4021d0) but reasonNOTConstructor(0x4021d0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[32mOPTI[MARCH]:[m Prolog facts: [---#####-------] 2729[K[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x4021d0) but reasonNOTConstructor(0x4021d0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x4021d0) but reasonNOTConstructor(0x4021d0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about merging classes: Method1=0x404450 Method2=0x405bb0
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about merging classes: Method1=0x404450 Method2=0x405bb0
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about merging classes: Method1=0x404450 Method2=0x405bb0
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x4021d0) but reasonNOTConstructor(0x4021d0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x4021d0) but reasonNOTConstructor(0x4021d0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x4021d0) but reasonNOTConstructor(0x4021d0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[33mPLOG[WARN ]:[m failed.
+[33mPLOG[WARN ]:[m Consistency checks failed.
+[33mPLOG[WARN ]:[m Contradictory information about constructor: factConstructor(0x4021d0) but reasonNOTConstructor(0x4021d0)
+[33mPLOG[WARN ]:[m Constraint checks failed, retracting guess!
+[31mOOAN[ERROR]:[m Method address 0x00404C70 was not a function or import.
+[32mOPTI[MARCH]:[m done[K[32mOPTI[INFO ]:[m OOAnalyzer analysis complete, found: 51 classes, 195 methods, 7 virtual calls, and 581 usage instructions.
+[32mOPTI[INFO ]:[m OOAnalyzer analysis complete.
